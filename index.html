@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Peinture Proactif | Peintre à Québec – Résidentiel et Commercial</title>
-  <meta name="description" content="Peinture Proactif – Peintre résidentiel et commercial à Québec. Travail soigné, résultats impeccables. Soumission gratuite : 418 932-8427.">
+  <title data-i18n="meta.home.title">Peinture Proactif | Peintre à Québec – Résidentiel et Commercial</title>
+  <meta name="description" data-i18n="meta.home.description" content="Peinture Proactif – Peintre résidentiel et commercial à Québec. Travail soigné, résultats impeccables. Soumission gratuite : 418 932-8427.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -25,12 +25,13 @@
     </button>
 
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html" class="active">Accueil</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="realisations.html">Réalisations</a></li>
-      <li><a href="a-propos.html">À propos</a></li>
-      <li><a href="carrieres.html">Carrières</a></li>
-      <li class="nav-cta"><a href="contact.html">Soumission gratuite</a></li>
+      <li><a href="index.html" class="active" data-i18n="nav.home">Accueil</a></li>
+      <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+      <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
+      <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+      <li><a href="carrieres.html" data-i18n="nav.careers">Carrières</a></li>
+      <li class="nav-cta"><a href="contact.html" data-i18n="nav.ctaFree">Soumission gratuite</a></li>
+      <li class="nav-lang"><button type="button" id="langToggle" class="lang-toggle">EN</button></li>
     </ul>
   </div>
 </nav>
@@ -44,18 +45,18 @@
 
     <div class="hero-badge">
       <span class="hero-badge-dot"></span>
-      Peintre à Québec depuis plus de 10 ans
+      <span data-i18n="home.badge">Peintre à Québec depuis plus de 10 ans</span>
     </div>
 
-    <h1>Une finition <em>impeccable</em>,<br>du premier coup.</h1>
+    <h1 data-i18n-html="home.title">Une finition <em>impeccable</em>,<br>du premier coup.</h1>
 
-    <p class="hero-sub">
+    <p class="hero-sub" data-i18n="home.sub">
       Résidentiel, commercial, condominiums et immeubles —
       on transforme vos espaces avec soin dans la région de Québec.
     </p>
 
     <div class="hero-btns">
-      <a href="contact.html" class="btn btn-orange">Demander une soumission gratuite</a>
+      <a href="contact.html" class="btn btn-orange" data-i18n="cta.freeQuote">Demander une soumission gratuite</a>
       <a href="tel:4189328427" class="btn btn-outline-white">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.5 12.78 19.79 19.79 0 01.47 4.16 2 2 0 012.45 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.09 6.09l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
@@ -67,19 +68,19 @@
     <div class="hero-stats" role="list">
       <div class="hero-stat" role="listitem">
         <div class="hero-stat-num">10+</div>
-        <div class="hero-stat-lbl">Ans d'expérience</div>
+        <div class="hero-stat-lbl" data-i18n="stats.experience">Ans d'expérience</div>
       </div>
       <div class="hero-stat" role="listitem">
         <div class="hero-stat-num">1000+</div>
-        <div class="hero-stat-lbl">Projets réalisés</div>
+        <div class="hero-stat-lbl" data-i18n="stats.projects">Projets réalisés</div>
       </div>
       <div class="hero-stat" role="listitem">
         <div class="hero-stat-num">100%</div>
-        <div class="hero-stat-lbl">Estimé gratuit</div>
+        <div class="hero-stat-lbl" data-i18n="stats.freeEstimate">Estimé gratuit</div>
       </div>
       <div class="hero-stat" role="listitem">
         <div class="hero-stat-num">RBQ</div>
-        <div class="hero-stat-lbl">Licencié &amp; assuré</div>
+        <div class="hero-stat-lbl" data-i18n="stats.licensedInsured">Licencié &amp; assuré</div>
       </div>
     </div>
   </div>
@@ -98,35 +99,35 @@
 
       <div class="trust-item">
         <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        Licence RBQ 5762-2433-01
+        <span data-i18n="trust.license">Licence RBQ 5762-2433-01</span>
       </div>
 
       <div class="trust-divider" aria-hidden="true"></div>
 
       <div class="trust-item">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        Disponible 7 jours / 7
+        <span data-i18n="trust.available">Disponible 7 jours / 7</span>
       </div>
 
       <div class="trust-divider" aria-hidden="true"></div>
 
       <div class="trust-item">
         <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
-        Soumission gratuite &amp; sans engagement
+        <span data-i18n="trust.freeNoCommit">Soumission gratuite &amp; sans engagement</span>
       </div>
 
       <div class="trust-divider" aria-hidden="true"></div>
 
       <div class="trust-item">
         <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
-        Résidentiel &amp; commercial
+        <span data-i18n="trust.resCom">Résidentiel &amp; commercial</span>
       </div>
 
       <div class="trust-divider" aria-hidden="true"></div>
 
       <div class="trust-item">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
-        Peintures écologiques
+        <span data-i18n="trust.ecoPaints">Peintures écologiques</span>
       </div>
 
     </div>
@@ -139,37 +140,37 @@
 <section style="background: var(--bg);">
   <div class="container">
     <div class="section-header fade-up">
-      <p class="eyebrow">Nos services</p>
-      <h2>Tout ce dont votre projet a besoin</h2>
-      <p>De la préparation des surfaces à la touche finale, on prend en charge chaque étape avec soin.</p>
+      <p class="eyebrow" data-i18n="home.services.eyebrow">Nos services</p>
+      <h2 data-i18n="home.services.title">Tout ce dont votre projet a besoin</h2>
+      <p data-i18n="home.services.sub">De la préparation des surfaces à la touche finale, on prend en charge chaque étape avec soin.</p>
     </div>
 
     <div class="services-grid services-grid-2">
 
       <div class="service-card fade-up">
         <div class="service-card-photo">
-          <img src="img/2023.jpg" alt="Peinture extérieure d'une maison résidentielle" loading="lazy">
+          <img src="img/2023.jpg" alt="Peinture extérieure d'une maison résidentielle" data-i18n-alt="alt.exteriorHouse" loading="lazy">
         </div>
         <div class="service-card-body">
-          <h3>Peinture intérieure et extérieure</h3>
-          <a href="services.html" class="btn-link">En savoir plus →</a>
+          <h3 data-i18n="services.interiorExterior">Peinture intérieure et extérieure</h3>
+          <a href="services.html" class="btn-link" data-i18n="common.learnMore">En savoir plus →</a>
         </div>
       </div>
 
       <div class="service-card fade-up">
         <div class="service-card-photo">
-          <img src="img/1780.jpg" alt="Peinture commerciale — local en rénovation" loading="lazy">
+          <img src="img/1780.jpg" alt="Peinture commerciale — local en rénovation" data-i18n-alt="alt.commercialRenovation" loading="lazy">
         </div>
         <div class="service-card-body">
-          <h3>Commercial &amp; Industriel</h3>
-          <a href="services.html" class="btn-link">En savoir plus →</a>
+          <h3 data-i18n="services.commercialIndustrial">Commercial &amp; Industriel</h3>
+          <a href="services.html" class="btn-link" data-i18n="common.learnMore">En savoir plus →</a>
         </div>
       </div>
 
     </div>
 
     <div style="text-align:center; margin-top: 48px;" class="fade-up">
-      <a href="services.html" class="btn btn-outline-navy">Voir tous nos services</a>
+      <a href="services.html" class="btn btn-outline-navy" data-i18n="home.services.viewAll">Voir tous nos services</a>
     </div>
   </div>
 </section>
@@ -186,6 +187,7 @@
       <img
         src="img/photo-travaux.jpg"
         alt="Peintre Proactif au travail dans un couloir résidentiel"
+        data-i18n-alt="alt.painterCorridor"
         width="800"
         height="580"
         loading="lazy"
@@ -194,9 +196,9 @@
 
     <!-- Content right -->
     <div class="photo-feature-content">
-      <p class="eyebrow">Notre approche</p>
-      <h2>Un chantier propre.<br>Un résultat qui dure.</h2>
-      <p>
+      <p class="eyebrow" data-i18n="home.approach.eyebrow">Notre approche</p>
+      <h2 data-i18n-html="home.approach.title">Un chantier propre.<br>Un résultat qui dure.</h2>
+      <p data-i18n="home.approach.sub">
         Chaque projet reçoit le même niveau d'attention — qu'il s'agisse d'une pièce ou
         d'un immeuble entier. On prépare, on protège et on livre impeccablement.
       </p>
@@ -207,8 +209,8 @@
             <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
           <div class="feat-text">
-            <strong>Préparation minutieuse des surfaces</strong>
-            <small>Ponçage, rebouchage, apprêt — on ne saute aucune étape.</small>
+            <strong data-i18n="home.feat1.title">Préparation minutieuse des surfaces</strong>
+            <small data-i18n="home.feat1.sub">Ponçage, rebouchage, apprêt — on ne saute aucune étape.</small>
           </div>
         </li>
         <li class="feat-item">
@@ -216,8 +218,8 @@
             <svg viewBox="0 0 24 24"><polyline points="22,4 12,14.01 9,11.01"/><path d="M21 16v5a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
           </div>
           <div class="feat-text">
-            <strong>Protection complète de vos biens</strong>
-            <small>Meubles, planchers, garnitures — tout est protégé avant qu'on commence.</small>
+            <strong data-i18n="home.feat2.title">Protection complète de vos biens</strong>
+            <small data-i18n="home.feat2.sub">Meubles, planchers, garnitures — tout est protégé avant qu'on commence.</small>
           </div>
         </li>
         <li class="feat-item">
@@ -225,8 +227,8 @@
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
           </div>
           <div class="feat-text">
-            <strong>Peintures écologiques, sans COV nocifs</strong>
-            <small>Pour votre santé et celle de votre famille.</small>
+            <strong data-i18n="home.feat3.title">Peintures écologiques, sans COV nocifs</strong>
+            <small data-i18n="home.feat3.sub">Pour votre santé et celle de votre famille.</small>
           </div>
         </li>
         <li class="feat-item">
@@ -234,13 +236,13 @@
             <svg viewBox="0 0 24 24"><polyline points="3,6 5,6 21,6"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a1 1 0 011-1h4a1 1 0 011 1v2"/></svg>
           </div>
           <div class="feat-text">
-            <strong>Nettoyage complet après les travaux</strong>
-            <small>On repart quand vos lieux sont propres et en ordre.</small>
+            <strong data-i18n="home.feat4.title">Nettoyage complet après les travaux</strong>
+            <small data-i18n="home.feat4.sub">On repart quand vos lieux sont propres et en ordre.</small>
           </div>
         </li>
       </ul>
 
-      <a href="a-propos.html" class="btn btn-outline-navy">En savoir plus sur nous</a>
+      <a href="a-propos.html" class="btn btn-outline-navy" data-i18n="home.approach.cta">En savoir plus sur nous</a>
     </div>
 
   </div>
@@ -252,17 +254,17 @@
 <section style="background: var(--white);">
   <div class="container">
     <div class="section-header fade-up">
-      <p class="eyebrow">Nos réalisations</p>
-      <h2>Des résultats qui parlent d'eux-mêmes</h2>
-      <p>Un aperçu de nos chantiers récents — résidentiel, commercial et extérieur.</p>
+      <p class="eyebrow" data-i18n="home.gallery.eyebrow">Nos réalisations</p>
+      <h2 data-i18n="home.gallery.title">Des résultats qui parlent d'eux-mêmes</h2>
+      <p data-i18n="home.gallery.sub">Un aperçu de nos chantiers récents — résidentiel, commercial et extérieur.</p>
     </div>
 
     <!-- Before / After slider -->
     <div class="ba-wrap fade-up">
       <div class="ba-slider" id="baSlider">
-        <img class="ba-img ba-before" src="img/2029.jpg" alt="Escalier de patio avant les travaux de peinture" loading="lazy">
+        <img class="ba-img ba-before" src="img/2029.jpg" alt="Escalier de patio avant les travaux de peinture" data-i18n-alt="alt.stairsBefore" loading="lazy">
         <div class="ba-after-clip" id="baAfterClip">
-          <img class="ba-img" src="img/2030.jpg" alt="Escalier de patio après les travaux de peinture" loading="lazy">
+          <img class="ba-img" src="img/2030.jpg" alt="Escalier de patio après les travaux de peinture" data-i18n-alt="alt.stairsAfter" loading="lazy">
         </div>
         <div class="ba-handle" id="baHandle">
           <div class="ba-handle-btn">
@@ -270,34 +272,34 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
           </div>
         </div>
-        <span class="ba-label ba-label-left">Avant</span>
-        <span class="ba-label ba-label-right">Après</span>
+        <span class="ba-label ba-label-left" data-i18n="common.before">Avant</span>
+        <span class="ba-label ba-label-right" data-i18n="common.after">Après</span>
       </div>
-      <p class="ba-hint">Glissez le curseur pour comparer avant / après</p>
+      <p class="ba-hint" data-i18n="home.gallery.baHint">Glissez le curseur pour comparer avant / après</p>
     </div>
 
     <!-- Photo grid -->
     <div class="gallery-grid gallery-grid-4">
       <figure class="gallery-item fade-up">
-        <img src="img/2024.jpg" alt="Maison résidentielle fraîchement peinte" loading="lazy" style="object-position: center 65%;">
-        <figcaption>Extérieur résidentiel</figcaption>
+        <img src="img/2024.jpg" alt="Maison résidentielle fraîchement peinte" data-i18n-alt="alt.freshlyPaintedHouse" loading="lazy" style="object-position: center 65%;">
+        <figcaption data-i18n="gallery.captionResExt">Extérieur résidentiel</figcaption>
       </figure>
       <figure class="gallery-item fade-up">
-        <img src="img/2250.jpg" alt="Peinture au pistolet d'un plafond commercial" loading="lazy">
-        <figcaption>Plafond commercial</figcaption>
+        <img src="img/2250.jpg" alt="Peinture au pistolet d'un plafond commercial" data-i18n-alt="alt.sprayCeiling" loading="lazy">
+        <figcaption data-i18n="gallery.captionCeiling">Plafond commercial</figcaption>
       </figure>
       <figure class="gallery-item fade-up">
-        <img src="img/1782.jpg" alt="Peintre au travail en hauteur" loading="lazy" style="object-position: center 30%;">
-        <figcaption>Travail en hauteur</figcaption>
+        <img src="img/1782.jpg" alt="Peintre au travail en hauteur" data-i18n-alt="alt.workingHeight" loading="lazy" style="object-position: center 30%;">
+        <figcaption data-i18n="gallery.captionHeight">Travail en hauteur</figcaption>
       </figure>
       <figure class="gallery-item fade-up">
-        <img src="img/1970.jpg" alt="Camion de Peinture Proactif" loading="lazy" style="object-position: center 45%;">
-        <figcaption>Notre équipe sur la route</figcaption>
+        <img src="img/1970.jpg" alt="Camion de Peinture Proactif" data-i18n-alt="alt.truck" loading="lazy" style="object-position: center 45%;">
+        <figcaption data-i18n="gallery.captionTruck">Notre équipe sur la route</figcaption>
       </figure>
     </div>
 
     <div style="text-align:center; margin-top: 48px;" class="fade-up">
-      <a href="realisations.html" class="btn btn-outline-navy">Voir toutes nos réalisations</a>
+      <a href="realisations.html" class="btn btn-outline-navy" data-i18n="home.gallery.viewAll">Voir toutes nos réalisations</a>
     </div>
   </div>
 </section>
@@ -310,9 +312,9 @@
     <div class="commitment-grid">
 
       <div class="commitment-text fade-up">
-        <p class="eyebrow">Notre engagement</p>
-        <h2>Le souci du détail,<br>à chaque coup de pinceau.</h2>
-        <p>
+        <p class="eyebrow" data-i18n="home.commit.eyebrow">Notre engagement</p>
+        <h2 data-i18n-html="home.commit.title">Le souci du détail,<br>à chaque coup de pinceau.</h2>
+        <p data-i18n="home.commit.sub">
           Depuis plus de 10 ans, on travaille dans les maisons et les commerces de la région
           de Québec avec la même rigueur. Pas de raccourcis, pas de mauvaises surprises.
         </p>
@@ -323,8 +325,8 @@
               <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
             <div>
-              <strong>Licencié RBQ &amp; pleinement assuré</strong>
-              <p>Licence 5762-2433-01 — vous êtes protégé à chaque étape.</p>
+              <strong data-i18n="home.commit1.title">Licencié RBQ &amp; pleinement assuré</strong>
+              <p data-i18n="home.commit1.sub">Licence 5762-2433-01 — vous êtes protégé à chaque étape.</p>
             </div>
           </li>
           <li class="commit-item">
@@ -332,8 +334,8 @@
               <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
             </div>
             <div>
-              <strong>Respect des délais, toujours</strong>
-              <p>On planifie sérieusement et on livre à la date convenue.</p>
+              <strong data-i18n="home.commit2.title">Respect des délais, toujours</strong>
+              <p data-i18n="home.commit2.sub">On planifie sérieusement et on livre à la date convenue.</p>
             </div>
           </li>
           <li class="commit-item">
@@ -341,8 +343,8 @@
               <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
             </div>
             <div>
-              <strong>Équipe stable, expérimentée</strong>
-              <p>Les mêmes peintres qualifiés du début à la fin de votre projet.</p>
+              <strong data-i18n="home.commit3.title">Équipe stable, expérimentée</strong>
+              <p data-i18n="home.commit3.sub">Les mêmes peintres qualifiés du début à la fin de votre projet.</p>
             </div>
           </li>
           <li class="commit-item">
@@ -350,27 +352,27 @@
               <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
             </div>
             <div>
-              <strong>Prix transparents, sans surprises</strong>
-              <p>Soumission détaillée et gratuite avant tout travail.</p>
+              <strong data-i18n="home.commit4.title">Prix transparents, sans surprises</strong>
+              <p data-i18n="home.commit4.sub">Soumission détaillée et gratuite avant tout travail.</p>
             </div>
           </li>
         </ul>
 
-        <a href="contact.html" class="btn btn-orange">Demander une soumission gratuite</a>
+        <a href="contact.html" class="btn btn-orange" data-i18n="cta.freeQuote">Demander une soumission gratuite</a>
       </div>
 
       <div class="commitment-visual fade-up">
         <div class="c-stat">
           <div class="c-stat-num">1000+</div>
-          <div class="c-stat-lbl">Projets réalisés dans la région de Québec</div>
+          <div class="c-stat-lbl" data-i18n="stats.projectsRegion">Projets réalisés dans la région de Québec</div>
         </div>
         <div class="c-stat">
           <div class="c-stat-num">10+</div>
-          <div class="c-stat-lbl">Années d'expérience en résidentiel et commercial</div>
+          <div class="c-stat-lbl" data-i18n="stats.yearsExpResCom">Années d'expérience en résidentiel et commercial</div>
         </div>
         <div class="c-stat">
           <div class="c-stat-num">RBQ</div>
-          <div class="c-stat-lbl">Licence 5762-2433-01 — Assuré et certifié</div>
+          <div class="c-stat-lbl" data-i18n="stats.licenseInsuredCertified">Licence 5762-2433-01 — Assuré et certifié</div>
         </div>
         <a href="tel:4189328427" class="btn btn-outline-white" style="justify-content:center;">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -389,8 +391,8 @@
 ══════════════════════════════════════════ -->
 <div class="areas-band">
   <div class="container">
-    <h2>Zones desservies</h2>
-    <p class="areas-tagline">Québec et les environs</p>
+    <h2 data-i18n="common.areasServed">Zones desservies</h2>
+    <p class="areas-tagline" data-i18n="common.areasTagline">Québec et les environs</p>
   </div>
 </div>
 
@@ -400,11 +402,11 @@
 <div class="careers-band">
   <div class="container careers-band-inner fade-up">
     <div>
-      <p class="eyebrow">On recrute</p>
-      <h2>Tu es peintre? Joins-toi à l'équipe.</h2>
-      <p>On cherche des gens fiables et passionnés par le travail bien fait.</p>
+      <p class="eyebrow" data-i18n="home.careers.eyebrow">On recrute</p>
+      <h2 data-i18n="home.careers.title">Tu es peintre? Joins-toi à l'équipe.</h2>
+      <p data-i18n="home.careers.sub">On cherche des gens fiables et passionnés par le travail bien fait.</p>
     </div>
-    <a href="carrieres.html" class="btn btn-orange">Voir les postes disponibles</a>
+    <a href="carrieres.html" class="btn btn-orange" data-i18n="home.careers.cta">Voir les postes disponibles</a>
   </div>
 </div>
 
@@ -413,10 +415,10 @@
 ══════════════════════════════════════════ -->
 <div class="cta-banner">
   <div class="container">
-    <h2>Prêt à transformer votre espace?</h2>
-    <p>Décrivez votre projet et on vous revient rapidement. Soumission gratuite, aucun engagement.</p>
+    <h2 data-i18n="common.ctaTitleTransform">Prêt à transformer votre espace?</h2>
+    <p data-i18n="home.ctaBanner.sub">Décrivez votre projet et on vous revient rapidement. Soumission gratuite, aucun engagement.</p>
     <div class="cta-btns">
-      <a href="contact.html" class="btn btn-orange">Demander ma soumission</a>
+      <a href="contact.html" class="btn btn-orange" data-i18n="cta.myQuote">Demander ma soumission</a>
       <a href="tel:4189328427" class="btn btn-outline-white">418 932-8427</a>
     </div>
   </div>
@@ -430,22 +432,22 @@
     <div class="footer-grid">
       <div>
         <div class="footer-logo">Peinture<span> Proactif</span></div>
-        <p class="footer-desc">Peinture résidentielle et commerciale à Québec. Travail soigné, résultats durables, lieux laissés impeccables.</p>
-        <p class="footer-rbq">Licence RBQ : 5762-2433-01</p>
+        <p class="footer-desc" data-i18n="footer.descLong">Peinture résidentielle et commerciale à Québec. Travail soigné, résultats durables, lieux laissés impeccables.</p>
+        <p class="footer-rbq" data-i18n="footer.license">Licence RBQ : 5762-2433-01</p>
       </div>
       <div class="footer-col">
-        <h4>Navigation</h4>
+        <h4 data-i18n="footer.navHeading">Navigation</h4>
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="realisations.html">Réalisations</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li><a href="carrieres.html">Carrières</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
+          <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+          <li><a href="carrieres.html" data-i18n="nav.careers">Carrières</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4 data-i18n="footer.contactHeading">Contact</h4>
         <ul>
           <li><a href="tel:4189328427">418 932-8427</a></li>
           <li><a href="mailto:peinture.proactif@gmail.com">peinture.proactif@gmail.com</a></li>
@@ -454,7 +456,7 @@
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom" data-i18n="footer.rights">
       © 2025 Peinture Proactif. Tous droits réservés.
     </div>
   </div>
@@ -530,5 +532,6 @@ document.querySelectorAll('.gallery-grid .gallery-item').forEach((item, i) => {
   slider.addEventListener('pointercancel', () => { dragging = false; });
 })();
 </script>
+<script src="i18n.js"></script>
 </body>
 </html>

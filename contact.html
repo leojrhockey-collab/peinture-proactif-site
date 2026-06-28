@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Peinture Proactif – Soumission gratuite à Québec</title>
-  <meta name="description" content="Demandez votre soumission gratuite à Peinture Proactif. Peinture résidentielle et commerciale à Québec. Réponse dans les meilleurs délais.">
+  <title data-i18n="meta.contact.title">Contact | Peinture Proactif – Soumission gratuite à Québec</title>
+  <meta name="description" data-i18n="meta.contact.description" content="Demandez votre soumission gratuite à Peinture Proactif. Peinture résidentielle et commerciale à Québec. Réponse dans les meilleurs délais.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,12 +19,13 @@
       </svg>
     </button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="realisations.html">Réalisations</a></li>
-      <li><a href="a-propos.html">À propos</a></li>
-      <li><a href="carrieres.html">Carrières</a></li>
-      <li class="nav-cta"><a href="contact.html" class="active">Soumission gratuite</a></li>
+      <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+      <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+      <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
+      <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+      <li><a href="carrieres.html" data-i18n="nav.careers">Carrières</a></li>
+      <li class="nav-cta"><a href="contact.html" class="active" data-i18n="nav.ctaFree">Soumission gratuite</a></li>
+      <li class="nav-lang"><button type="button" id="langToggle" class="lang-toggle">EN</button></li>
     </ul>
   </div>
 </nav>
@@ -33,12 +34,12 @@
 <div class="page-hero">
   <div class="container">
     <div class="breadcrumb">
-      <a href="index.html">Accueil</a>
+      <a href="index.html" data-i18n="nav.home">Accueil</a>
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9,18 15,12 9,6"/></svg>
-      <span>Contact</span>
+      <span data-i18n="nav.contact">Contact</span>
     </div>
-    <h1>Demandez votre soumission gratuite</h1>
-    <p>Décrivez votre projet et on vous revient dans les meilleurs délais. Aucun engagement.</p>
+    <h1 data-i18n="contact.title">Demandez votre soumission gratuite</h1>
+    <p data-i18n="contact.heroSub">Décrivez votre projet et on vous revient dans les meilleurs délais. Aucun engagement.</p>
   </div>
 </div>
 
@@ -50,7 +51,7 @@
       <!-- Info column -->
       <div class="contact-info-stack fade-up">
         <div class="contact-box">
-          <p class="contact-box-title">Coordonnées</p>
+          <p class="contact-box-title" data-i18n="contact.coords">Coordonnées</p>
 
           <a href="tel:4189328427" style="display:block;margin-bottom:14px;">
             <div class="contact-row">
@@ -59,7 +60,7 @@
               </div>
               <div class="contact-row-text">
                 <strong>418 932-8427</strong>
-                <small>Du lundi au vendredi</small>
+                <small data-i18n="contact.weekdays">Du lundi au vendredi</small>
               </div>
             </div>
           </a>
@@ -71,7 +72,7 @@
               </div>
               <div class="contact-row-text">
                 <strong>peinture.proactif@gmail.com</strong>
-                <small>On répond dans les meilleurs délais</small>
+                <small data-i18n="contact.replyFast">On répond dans les meilleurs délais</small>
               </div>
             </div>
           </a>
@@ -86,36 +87,36 @@
             </div>
           </div>
 
-          <div class="rbq-note">Licence RBQ : 5762-2433-01</div>
+          <div class="rbq-note" data-i18n="footer.license">Licence RBQ : 5762-2433-01</div>
         </div>
 
         <!-- Why contact us -->
         <div class="contact-box">
-          <p class="contact-box-title">Soumission gratuite</p>
+          <p class="contact-box-title" data-i18n="nav.ctaFree">Soumission gratuite</p>
           <div style="display:flex;flex-direction:column;gap:12px;">
             <div style="display:flex;gap:10px;align-items:flex-start;font-size:0.88rem;color:var(--text-mid);">
               <span style="color:var(--orange);font-weight:700;font-size:1rem;line-height:1.4;">✓</span>
-              Estimé détaillé, sans frais ni obligation
+              <span data-i18n="contact.why1">Estimé détaillé, sans frais ni obligation</span>
             </div>
             <div style="display:flex;gap:10px;align-items:flex-start;font-size:0.88rem;color:var(--text-mid);">
               <span style="color:var(--orange);font-weight:700;font-size:1rem;line-height:1.4;">✓</span>
-              On se déplace pour évaluer votre projet
+              <span data-i18n="contact.why2">On se déplace pour évaluer votre projet</span>
             </div>
             <div style="display:flex;gap:10px;align-items:flex-start;font-size:0.88rem;color:var(--text-mid);">
               <span style="color:var(--orange);font-weight:700;font-size:1rem;line-height:1.4;">✓</span>
-              Soumission claire et détaillée par écrit
+              <span data-i18n="contact.why3">Soumission claire et détaillée par écrit</span>
             </div>
             <div style="display:flex;gap:10px;align-items:flex-start;font-size:0.88rem;color:var(--text-mid);">
               <span style="color:var(--orange);font-weight:700;font-size:1rem;line-height:1.4;">✓</span>
-              Aucune surprise sur la facture finale
+              <span data-i18n="contact.why4">Aucune surprise sur la facture finale</span>
             </div>
           </div>
         </div>
 
         <!-- Zones -->
         <div class="contact-box">
-          <p class="contact-box-title">Zones desservies</p>
-          <p style="font-size:0.87rem;color:var(--text-mid);line-height:1.65;">
+          <p class="contact-box-title" data-i18n="common.areasServed">Zones desservies</p>
+          <p style="font-size:0.87rem;color:var(--text-mid);line-height:1.65;" data-i18n="contact.zonesList">
             Québec · Sainte-Foy · Sillery · Cap-Rouge · Charlesbourg · Beauport ·
             Saint-Augustin-de-Desmaures · L'Ancienne-Lorette · Lac-Saint-Charles ·
             Loretteville · Val-Bélair · et environs
@@ -133,7 +134,7 @@
           4. Remplacez VOTRE_CLE_WEB3FORMS ci-dessous par votre clé
         -->
         <form class="form-card" id="contactForm" novalidate>
-          <div class="form-title">Votre projet</div>
+          <div class="form-title" data-i18n="contact.form.title">Votre projet</div>
 
           <input type="hidden" name="access_key" value="VOTRE_CLE_WEB3FORMS">
           <input type="hidden" name="subject" value="Nouvelle demande de soumission – Peinture Proactif">
@@ -141,53 +142,53 @@
 
           <div class="form-row">
             <div class="form-group">
-              <label for="f-prenom">Prénom *</label>
+              <label for="f-prenom" data-i18n="form.firstName">Prénom *</label>
               <input type="text" id="f-prenom" name="prenom" required placeholder="Jean">
             </div>
             <div class="form-group">
-              <label for="f-nom">Nom *</label>
+              <label for="f-nom" data-i18n="form.lastName">Nom *</label>
               <input type="text" id="f-nom" name="nom" required placeholder="Tremblay">
             </div>
           </div>
 
           <div class="form-row">
             <div class="form-group">
-              <label for="f-tel">Téléphone *</label>
+              <label for="f-tel" data-i18n="form.phone">Téléphone *</label>
               <input type="tel" id="f-tel" name="telephone" required placeholder="418 xxx-xxxx">
             </div>
             <div class="form-group">
-              <label for="f-email">Courriel</label>
+              <label for="f-email" data-i18n="contact.form.emailOptional">Courriel</label>
               <input type="email" id="f-email" name="email" placeholder="jean@exemple.com">
             </div>
           </div>
 
           <div class="form-group">
-            <label for="f-ville">Ville *</label>
-            <input type="text" id="f-ville" name="ville" required placeholder="Ex : Sainte-Foy, Charlesbourg...">
+            <label for="f-ville" data-i18n="contact.form.city">Ville *</label>
+            <input type="text" id="f-ville" name="ville" required placeholder="Ex : Sainte-Foy, Charlesbourg..." data-i18n-placeholder="contact.form.cityPlaceholder">
           </div>
 
           <div class="form-group">
-            <label for="f-type">Type de projet *</label>
+            <label for="f-type" data-i18n="contact.form.projectType">Type de projet *</label>
             <select id="f-type" name="type_projet" required>
-              <option value="">Sélectionner...</option>
-              <option>Peinture intérieure résidentielle</option>
-              <option>Peinture extérieure résidentielle</option>
-              <option>Peinture commerciale</option>
-              <option>Peinture intérieure et extérieure</option>
-              <option>Autre / Je ne sais pas encore</option>
+              <option value="" data-i18n="form.select">Sélectionner...</option>
+              <option data-i18n="contact.form.type1">Peinture intérieure résidentielle</option>
+              <option data-i18n="contact.form.type2">Peinture extérieure résidentielle</option>
+              <option data-i18n="contact.form.type3">Peinture commerciale</option>
+              <option data-i18n="contact.form.type4">Peinture intérieure et extérieure</option>
+              <option data-i18n="contact.form.type5">Autre / Je ne sais pas encore</option>
             </select>
           </div>
 
           <div class="form-group">
-            <label for="f-msg">Décrivez votre projet *</label>
-            <textarea id="f-msg" name="message" required placeholder="Décrivez ce que vous souhaitez faire peindre, la surface approximative, et vos disponibilités pour une visite..."></textarea>
+            <label for="f-msg" data-i18n="contact.form.describe">Décrivez votre projet *</label>
+            <textarea id="f-msg" name="message" required placeholder="Décrivez ce que vous souhaitez faire peindre, la surface approximative, et vos disponibilités pour une visite..." data-i18n-placeholder="contact.form.describePlaceholder"></textarea>
           </div>
 
-          <button type="submit" class="form-submit" id="contactBtn">Envoyer ma demande de soumission</button>
-          <div class="form-msg success" id="contactOk">
+          <button type="submit" class="form-submit" id="contactBtn" data-i18n="contact.form.submit">Envoyer ma demande de soumission</button>
+          <div class="form-msg success" id="contactOk" data-i18n="contact.form.success">
             ✓ Votre demande a bien été reçue! On vous contactera dans les meilleurs délais.
           </div>
-          <div class="form-msg error" id="contactErr">
+          <div class="form-msg error" id="contactErr" data-i18n-html="contact.form.error">
             Une erreur s'est produite. Veuillez nous écrire directement à
             <strong>peinture.proactif@gmail.com</strong> ou appeler le 418 932-8427.
           </div>
@@ -204,22 +205,22 @@
     <div class="footer-grid">
       <div>
         <div class="footer-logo">Peinture<span> Proactif</span></div>
-        <p class="footer-desc">Peinture résidentielle et commerciale à Québec. Travail soigné, résultats durables.</p>
-        <p class="footer-rbq">Licence RBQ : 5762-2433-01</p>
+        <p class="footer-desc" data-i18n="footer.descShort">Peinture résidentielle et commerciale à Québec. Travail soigné, résultats durables.</p>
+        <p class="footer-rbq" data-i18n="footer.license">Licence RBQ : 5762-2433-01</p>
       </div>
       <div class="footer-col">
-        <h4>Navigation</h4>
+        <h4 data-i18n="footer.navHeading">Navigation</h4>
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="realisations.html">Réalisations</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li><a href="carrieres.html">Carrières</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
+          <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+          <li><a href="carrieres.html" data-i18n="nav.careers">Carrières</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4 data-i18n="footer.contactHeading">Contact</h4>
         <ul>
           <li><a href="tel:4189328427">418 932-8427</a></li>
           <li><a href="mailto:peinture.proactif@gmail.com">peinture.proactif@gmail.com</a></li>
@@ -228,11 +229,12 @@
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">© 2025 Peinture Proactif. Tous droits réservés.</div>
+    <div class="footer-bottom" data-i18n="footer.rights">© 2025 Peinture Proactif. Tous droits réservés.</div>
   </div>
 </footer>
 
 <script src="nav.js"></script>
+<script src="i18n.js"></script>
 <script>
 (function () {
   'use strict';
@@ -286,4 +288,3 @@
 </script>
 </body>
 </html>
-

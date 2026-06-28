@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services | Peinture Proactif – Québec</title>
-  <meta name="description" content="Peinture intérieure, extérieure et commerciale à Québec. Découvrez tous les services de Peinture Proactif.">
+  <title data-i18n="meta.services.title">Services | Peinture Proactif – Québec</title>
+  <meta name="description" data-i18n="meta.services.description" content="Peinture intérieure, extérieure et commerciale à Québec. Découvrez tous les services de Peinture Proactif.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,12 +19,13 @@
       </svg>
     </button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="services.html" class="active">Services</a></li>
-      <li><a href="realisations.html">Réalisations</a></li>
-      <li><a href="a-propos.html">À propos</a></li>
-      <li><a href="carrieres.html">Carrières</a></li>
-      <li class="nav-cta"><a href="contact.html">Soumission gratuite</a></li>
+      <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+      <li><a href="services.html" class="active" data-i18n="nav.services">Services</a></li>
+      <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
+      <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+      <li><a href="carrieres.html" data-i18n="nav.careers">Carrières</a></li>
+      <li class="nav-cta"><a href="contact.html" data-i18n="nav.ctaFree">Soumission gratuite</a></li>
+      <li class="nav-lang"><button type="button" id="langToggle" class="lang-toggle">EN</button></li>
     </ul>
   </div>
 </nav>
@@ -33,12 +34,12 @@
 <div class="page-hero">
   <div class="container">
     <div class="breadcrumb">
-      <a href="index.html">Accueil</a>
+      <a href="index.html" data-i18n="nav.home">Accueil</a>
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9,18 15,12 9,6"/></svg>
-      <span>Services</span>
+      <span data-i18n="nav.services">Services</span>
     </div>
-    <h1>Nos services</h1>
-    <p>Un travail minutieux, que ce soit chez vous ou dans votre commerce. Chaque projet est traité avec le même soin.</p>
+    <h1 data-i18n="services.title">Nos services</h1>
+    <p data-i18n="services.heroSub">Un travail minutieux, que ce soit chez vous ou dans votre commerce. Chaque projet est traité avec le même soin.</p>
   </div>
 </div>
 
@@ -47,33 +48,33 @@
   <div class="container">
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:center;" class="fade-up">
       <div>
-        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;">Service 01</p>
-        <h2 style="font-size:clamp(1.7rem,2.8vw,2.3rem);font-weight:700;color:var(--navy);margin-bottom:16px;">Peinture intérieure</h2>
-        <p style="color:var(--text-mid);line-height:1.8;margin-bottom:20px;">
+        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;" data-i18n="services.service01">Service 01</p>
+        <h2 style="font-size:clamp(1.7rem,2.8vw,2.3rem);font-weight:700;color:var(--navy);margin-bottom:16px;" data-i18n="services.interiorExterior">Peinture intérieure</h2>
+        <p style="color:var(--text-mid);line-height:1.8;margin-bottom:20px;" data-i18n="services.interior.sub">
           On transforme vos espaces de vie de l'intérieur. Murs, plafonds, boiseries, portes,
           rampes d'escalier et planchers — chaque surface est traitée avec soin du début à la fin.
         </p>
         <ul style="display:flex;flex-direction:column;gap:10px;margin-bottom:28px;">
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Préparation et ponçage complets des surfaces
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.interior.li1">Préparation et ponçage complets des surfaces</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Protection de vos meubles et planchers
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.interior.li2">Protection de vos meubles et planchers</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Peintures sans COV disponibles
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.interior.li3">Peintures sans COV disponibles</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Finition soignée sur chaque détail
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.interior.li4">Finition soignée sur chaque détail</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Nettoyage complet en fin de chantier
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.interior.li5">Nettoyage complet en fin de chantier</span>
           </li>
         </ul>
-        <a href="contact.html" class="btn btn-orange">Demander un estimé gratuit</a>
+        <a href="contact.html" class="btn btn-orange" data-i18n="cta.freeEstimate">Demander un estimé gratuit</a>
       </div>
       <div style="border-radius:var(--radius-lg);height:420px;overflow:hidden;box-shadow:0 16px 40px rgba(10,20,40,0.15);">
-        <img src="img/photo-travaux.jpg" alt="Peintre au travail dans un couloir résidentiel" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <img src="img/photo-travaux.jpg" alt="Peintre au travail dans un couloir résidentiel" data-i18n-alt="alt.painterCorridor2" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;">
       </div>
     </div>
   </div>
@@ -84,33 +85,33 @@
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;" class="fade-up">
       <div style="border-radius:var(--radius-lg);height:420px;overflow:hidden;box-shadow:0 16px 40px rgba(10,20,40,0.15);order:1;">
-        <img src="img/2023.jpg" alt="Peinture extérieure d'une maison résidentielle" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 35%;display:block;">
+        <img src="img/2023.jpg" alt="Peinture extérieure d'une maison résidentielle" data-i18n-alt="alt.exteriorHouse" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center 35%;display:block;">
       </div>
       <div style="order:2;">
-        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;">Service 02</p>
-        <h2 style="font-size:clamp(1.7rem,2.8vw,2.3rem);font-weight:700;color:var(--navy);margin-bottom:16px;">Peinture extérieure</h2>
-        <p style="color:var(--text-mid);line-height:1.8;margin-bottom:20px;">
+        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;" data-i18n="services.service02">Service 02</p>
+        <h2 style="font-size:clamp(1.7rem,2.8vw,2.3rem);font-weight:700;color:var(--navy);margin-bottom:16px;" data-i18n="services.exterior.title">Peinture extérieure</h2>
+        <p style="color:var(--text-mid);line-height:1.8;margin-bottom:20px;" data-i18n="services.exterior.sub">
           Votre extérieur est la première impression de votre maison. On utilise des produits conçus
           pour résister aux hivers rigoureux du Québec — gel, humidité, variations de température.
         </p>
         <ul style="display:flex;flex-direction:column;gap:10px;margin-bottom:28px;">
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Revêtements, soffites, portes de garage
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.exterior.li1">Revêtements, soffites, portes de garage</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Clôtures, patios et terrasses
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.exterior.li2">Clôtures, patios et terrasses</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Cadres de fenêtres et volets
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.exterior.li3">Cadres de fenêtres et volets</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Préparation et nettoyage en profondeur
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.exterior.li4">Préparation et nettoyage en profondeur</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Produits adaptés au climat québécois
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.exterior.li5">Produits adaptés au climat québécois</span>
           </li>
         </ul>
-        <a href="contact.html" class="btn btn-orange">Demander un estimé gratuit</a>
+        <a href="contact.html" class="btn btn-orange" data-i18n="cta.freeEstimate">Demander un estimé gratuit</a>
       </div>
     </div>
   </div>
@@ -121,33 +122,33 @@
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;" class="fade-up">
       <div>
-        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;">Service 03</p>
-        <h2 style="font-size:clamp(1.7rem,2.8vw,2.3rem);font-weight:700;color:var(--navy);margin-bottom:16px;">Commercial</h2>
-        <p style="color:var(--text-mid);line-height:1.8;margin-bottom:20px;">
+        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;" data-i18n="services.service03">Service 03</p>
+        <h2 style="font-size:clamp(1.7rem,2.8vw,2.3rem);font-weight:700;color:var(--navy);margin-bottom:16px;" data-i18n="services.commercialIndustrial">Commercial</h2>
+        <p style="color:var(--text-mid);line-height:1.8;margin-bottom:20px;" data-i18n="services.commercial.sub">
           Bureaux, commerces, restaurants, immeubles à logements. On travaille rapidement et proprement,
           en s'adaptant à vos horaires pour minimiser les interruptions à vos activités.
         </p>
         <ul style="display:flex;flex-direction:column;gap:10px;margin-bottom:28px;">
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Bureaux, commerces, restaurants
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.commercial.li1">Bureaux, commerces, restaurants</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Immeubles à logements et condos
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.commercial.li2">Immeubles à logements et condos</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Travail selon vos disponibilités
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.commercial.li3">Travail selon vos disponibilités</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Soumission détaillée avant les travaux
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.commercial.li4">Soumission détaillée avant les travaux</span>
           </li>
           <li style="display:flex;align-items:center;gap:10px;font-size:0.95rem;color:var(--text-mid);">
-            <span style="color:var(--orange);font-weight:700;">✓</span> Grandes surfaces et projets d'envergure
+            <span style="color:var(--orange);font-weight:700;">✓</span> <span data-i18n="services.commercial.li5">Grandes surfaces et projets d'envergure</span>
           </li>
         </ul>
-        <a href="contact.html" class="btn btn-orange">Demander un estimé gratuit</a>
+        <a href="contact.html" class="btn btn-orange" data-i18n="cta.freeEstimate">Demander un estimé gratuit</a>
       </div>
       <div style="border-radius:var(--radius-lg);height:420px;overflow:hidden;box-shadow:0 16px 40px rgba(10,20,40,0.15);">
-        <img src="img/2250.jpg" alt="Peinture au pistolet d'un plafond commercial" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <img src="img/2250.jpg" alt="Peinture au pistolet d'un plafond commercial" data-i18n-alt="alt.sprayCeiling" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;">
       </div>
     </div>
   </div>
@@ -156,18 +157,18 @@
 <!-- AREAS -->
 <div class="areas-band">
   <div class="container">
-    <h2>Zones desservies</h2>
-    <p class="areas-tagline">Québec et les environs</p>
+    <h2 data-i18n="common.areasServed">Zones desservies</h2>
+    <p class="areas-tagline" data-i18n="common.areasTagline">Québec et les environs</p>
   </div>
 </div>
 
 <!-- CTA BANNER -->
 <div class="cta-banner">
   <div class="container">
-    <h2>Prêt à transformer votre espace?</h2>
-    <p>Soumission gratuite, aucun engagement. On vous revient dans les meilleurs délais.</p>
+    <h2 data-i18n="common.ctaTitleTransform">Prêt à transformer votre espace?</h2>
+    <p data-i18n="common.ctaSubFreeNoCommit">Soumission gratuite, aucun engagement. On vous revient dans les meilleurs délais.</p>
     <div class="cta-btns">
-      <a href="contact.html" class="btn btn-orange">Demander ma soumission</a>
+      <a href="contact.html" class="btn btn-orange" data-i18n="cta.myQuote">Demander ma soumission</a>
       <a href="tel:4189328427" class="btn btn-outline-white">418 932-8427</a>
     </div>
   </div>
@@ -179,22 +180,22 @@
     <div class="footer-grid">
       <div>
         <div class="footer-logo">Peinture<span> Proactif</span></div>
-        <p class="footer-desc">Peinture résidentielle et commerciale à Québec. Travail soigné, résultats durables.</p>
-        <p class="footer-rbq">Licence RBQ : 5762-2433-01</p>
+        <p class="footer-desc" data-i18n="footer.descShort">Peinture résidentielle et commerciale à Québec. Travail soigné, résultats durables.</p>
+        <p class="footer-rbq" data-i18n="footer.license">Licence RBQ : 5762-2433-01</p>
       </div>
       <div class="footer-col">
-        <h4>Navigation</h4>
+        <h4 data-i18n="footer.navHeading">Navigation</h4>
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="realisations.html">Réalisations</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li><a href="carrieres.html">Carrières</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
+          <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+          <li><a href="carrieres.html" data-i18n="nav.careers">Carrières</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4 data-i18n="footer.contactHeading">Contact</h4>
         <ul>
           <li><a href="tel:4189328427">418 932-8427</a></li>
           <li><a href="mailto:peinture.proactif@gmail.com">peinture.proactif@gmail.com</a></li>
@@ -203,11 +204,12 @@
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">© 2025 Peinture Proactif. Tous droits réservés.</div>
+    <div class="footer-bottom" data-i18n="footer.rights">© 2025 Peinture Proactif. Tous droits réservés.</div>
   </div>
 </footer>
 
 <script src="nav.js"></script>
+<script src="i18n.js"></script>
 <style>
   @media (max-width: 768px) {
     [style*="grid-template-columns:1fr 1fr"] {
@@ -221,4 +223,3 @@
 </style>
 </body>
 </html>
-

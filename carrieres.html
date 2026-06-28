@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrières | Peinture Proactif – Québec</title>
-  <meta name="description" content="Joignez l'équipe Peinture Proactif. On cherche des peintres professionnels à Québec. Postulez dès maintenant.">
+  <title data-i18n="meta.careers.title">Carrières | Peinture Proactif – Québec</title>
+  <meta name="description" data-i18n="meta.careers.description" content="Joignez-vous à l'équipe Peinture Proactif. On cherche des peintres professionnels à Québec. Postulez dès maintenant.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,12 +19,13 @@
       </svg>
     </button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="realisations.html">Réalisations</a></li>
-      <li><a href="a-propos.html">À propos</a></li>
-      <li><a href="carrieres.html" class="active">Carrières</a></li>
-      <li class="nav-cta"><a href="contact.html">Soumission gratuite</a></li>
+      <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+      <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+      <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
+      <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+      <li><a href="carrieres.html" class="active" data-i18n="nav.careers">Carrières</a></li>
+      <li class="nav-cta"><a href="contact.html" data-i18n="nav.ctaFree">Soumission gratuite</a></li>
+      <li class="nav-lang"><button type="button" id="langToggle" class="lang-toggle">EN</button></li>
     </ul>
   </div>
 </nav>
@@ -33,12 +34,12 @@
 <div class="page-hero">
   <div class="container">
     <div class="breadcrumb">
-      <a href="index.html">Accueil</a>
+      <a href="index.html" data-i18n="nav.home">Accueil</a>
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9,18 15,12 9,6"/></svg>
-      <span>Carrières</span>
+      <span data-i18n="nav.careers">Carrières</span>
     </div>
-    <h1>Joignez l'équipe Proactif</h1>
-    <p>Vous êtes peintre professionnel et vous prenez de la fierté dans votre travail? On veut vous rencontrer.</p>
+    <h1 data-i18n="careers.title">Joignez-vous à l'équipe Proactif</h1>
+    <p data-i18n="careers.heroSub">Vous êtes peintre professionnel et vous mettez de la fierté dans votre travail? On veut vous rencontrer.</p>
   </div>
 </div>
 
@@ -49,41 +50,41 @@
 
       <!-- Info column -->
       <div class="fade-up">
-        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;">Postes disponibles</p>
-        <h2 style="font-size:clamp(1.5rem,2.5vw,2rem);font-weight:700;color:var(--navy);margin-bottom:20px;">Ce qu'on cherche</h2>
+        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;" data-i18n="careers.available.eyebrow">Postes disponibles</p>
+        <h2 style="font-size:clamp(1.5rem,2.5vw,2rem);font-weight:700;color:var(--navy);margin-bottom:20px;" data-i18n="careers.whatWeSeek">Ce qu'on cherche</h2>
         <div class="careers-info-section">
           <ul class="careers-ul">
-            <li>Peintre résidentiel avec expérience</li>
-            <li>Peintre commercial</li>
-            <li>Apprenti peintre / Aide-peintre</li>
+            <li data-i18n="careers.role1">Peintre résidentiel avec expérience</li>
+            <li data-i18n="careers.role2">Peintre commercial</li>
+            <li data-i18n="careers.role3">Apprenti peintre / Aide-peintre</li>
           </ul>
         </div>
 
         <div style="height:1px;background:var(--border);margin:28px 0;"></div>
 
-        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;">Ce qu'on offre</p>
+        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:10px;" data-i18n="careers.whatWeOffer">Ce qu'on offre</p>
         <div class="careers-info-section">
           <ul class="careers-ul">
-            <li>Travail stable, à l'année longue</li>
-            <li>Équipe sérieuse et respectueuse</li>
-            <li>Projets variés à Québec et environs</li>
-            <li>Environnement de travail propre et organisé</li>
-            <li>Matériel et équipements fournis</li>
+            <li data-i18n="careers.offer1">Travail stable, à l'année longue</li>
+            <li data-i18n="careers.offer2">Équipe sérieuse et respectueuse</li>
+            <li data-i18n="careers.offer3">Projets variés à Québec et environs</li>
+            <li data-i18n="careers.offer4">Environnement de travail propre et organisé</li>
+            <li data-i18n="careers.offer5">Matériel et équipements fournis</li>
           </ul>
         </div>
 
         <div style="height:1px;background:var(--border);margin:28px 0;"></div>
 
         <!-- Why join -->
-        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:14px;">Pourquoi nous rejoindre</p>
+        <p style="font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.10em;color:var(--orange);margin-bottom:14px;" data-i18n="careers.whyJoin">Pourquoi nous rejoindre</p>
         <div style="display:flex;flex-direction:column;gap:14px;">
           <div style="display:flex;gap:12px;align-items:flex-start;">
             <div style="width:36px;height:36px;min-width:36px;background:var(--bg-alt);border-radius:8px;display:flex;align-items:center;justify-content:center;">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22,4 12,14.01 9,11.01"/></svg>
             </div>
             <div>
-              <strong style="font-size:0.95rem;color:var(--text-dark);display:block;margin-bottom:2px;">On fait les choses correctement</strong>
-              <span style="font-size:0.87rem;color:var(--text-mid);">Pas de raccourcis. On prend le temps de bien faire le travail.</span>
+              <strong style="font-size:0.95rem;color:var(--text-dark);display:block;margin-bottom:2px;" data-i18n="careers.why1.title">On fait les choses correctement</strong>
+              <span style="font-size:0.87rem;color:var(--text-mid);" data-i18n="careers.why1.sub">Pas de raccourcis. On prend le temps de bien faire le travail.</span>
             </div>
           </div>
           <div style="display:flex;gap:12px;align-items:flex-start;">
@@ -91,8 +92,8 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
             </div>
             <div>
-              <strong style="font-size:0.95rem;color:var(--text-dark);display:block;margin-bottom:2px;">Une équipe qui se respecte</strong>
-              <span style="font-size:0.87rem;color:var(--text-mid);">Ambiance professionnelle, communication claire, respect mutuel.</span>
+              <strong style="font-size:0.95rem;color:var(--text-dark);display:block;margin-bottom:2px;" data-i18n="careers.why2.title">Une équipe qui se respecte</strong>
+              <span style="font-size:0.87rem;color:var(--text-mid);" data-i18n="careers.why2.sub">Ambiance professionnelle, communication claire, respect mutuel.</span>
             </div>
           </div>
           <div style="display:flex;gap:12px;align-items:flex-start;">
@@ -100,13 +101,13 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
             </div>
             <div>
-              <strong style="font-size:0.95rem;color:var(--text-dark);display:block;margin-bottom:2px;">Des projets variés</strong>
-              <span style="font-size:0.87rem;color:var(--text-mid);">Résidentiel, commercial, intérieur, extérieur — jamais monotone.</span>
+              <strong style="font-size:0.95rem;color:var(--text-dark);display:block;margin-bottom:2px;" data-i18n="careers.why3.title">Des projets variés</strong>
+              <span style="font-size:0.87rem;color:var(--text-mid);" data-i18n="careers.why3.sub">Résidentiel, commercial, intérieur, extérieur — jamais monotone.</span>
             </div>
           </div>
         </div>
 
-        <p class="careers-note">
+        <p class="careers-note" data-i18n-html="careers.note">
           Des questions? Appelez-nous directement au
           <a href="tel:4189328427" style="color:var(--navy);font-weight:600;">418 932-8427</a>
           ou écrivez à
@@ -124,7 +125,7 @@
           4. Remplacez VOTRE_CLE_WEB3FORMS ci-dessous par votre clé
         -->
         <form class="form-card" id="careerForm" novalidate>
-          <div class="form-title">Formulaire de candidature</div>
+          <div class="form-title" data-i18n="careers.form.title">Formulaire de candidature</div>
 
           <input type="hidden" name="access_key" value="VOTRE_CLE_WEB3FORMS">
           <input type="hidden" name="subject" value="Nouvelle candidature – Peinture Proactif">
@@ -132,70 +133,70 @@
 
           <div class="form-row">
             <div class="form-group">
-              <label for="c-prenom">Prénom *</label>
+              <label for="c-prenom" data-i18n="form.firstName">Prénom *</label>
               <input type="text" id="c-prenom" name="prenom" required placeholder="Jean">
             </div>
             <div class="form-group">
-              <label for="c-nom">Nom *</label>
+              <label for="c-nom" data-i18n="form.lastName">Nom *</label>
               <input type="text" id="c-nom" name="nom" required placeholder="Tremblay">
             </div>
           </div>
 
           <div class="form-row">
             <div class="form-group">
-              <label for="c-tel">Téléphone *</label>
+              <label for="c-tel" data-i18n="form.phone">Téléphone *</label>
               <input type="tel" id="c-tel" name="telephone" required placeholder="418 xxx-xxxx">
             </div>
             <div class="form-group">
-              <label for="c-email">Courriel *</label>
+              <label for="c-email" data-i18n="form.email">Courriel *</label>
               <input type="email" id="c-email" name="email" required placeholder="jean@exemple.com">
             </div>
           </div>
 
           <div class="form-group">
-            <label for="c-poste">Type de poste *</label>
+            <label for="c-poste" data-i18n="careers.form.positionType">Type de poste *</label>
             <select id="c-poste" name="poste" required>
-              <option value="">Sélectionner...</option>
-              <option>Peintre résidentiel</option>
-              <option>Peintre commercial</option>
-              <option>Apprenti peintre / Aide-peintre</option>
-              <option>Autre</option>
+              <option value="" data-i18n="form.select">Sélectionner...</option>
+              <option data-i18n="careers.role1NoExp">Peintre résidentiel</option>
+              <option data-i18n="careers.role2">Peintre commercial</option>
+              <option data-i18n="careers.role3">Apprenti peintre / Aide-peintre</option>
+              <option data-i18n="form.other">Autre</option>
             </select>
           </div>
 
           <div class="form-group">
-            <label for="c-exp">Années d'expérience *</label>
+            <label for="c-exp" data-i18n="careers.form.experience">Années d'expérience *</label>
             <select id="c-exp" name="experience" required>
-              <option value="">Sélectionner...</option>
-              <option>Moins de 1 an</option>
-              <option>1 à 3 ans</option>
-              <option>3 à 5 ans</option>
-              <option>5 à 10 ans</option>
-              <option>10 ans et plus</option>
+              <option value="" data-i18n="form.select">Sélectionner...</option>
+              <option data-i18n="form.exp.lessThan1">Moins d'un an</option>
+              <option data-i18n="form.exp.1to3">1 à 3 ans</option>
+              <option data-i18n="form.exp.3to5">3 à 5 ans</option>
+              <option data-i18n="form.exp.5to10">5 à 10 ans</option>
+              <option data-i18n="form.exp.10plus">10 ans et plus</option>
             </select>
           </div>
 
           <div class="form-group">
-            <label for="c-dispo">Disponibilité</label>
+            <label for="c-dispo" data-i18n="careers.form.availability">Disponibilité</label>
             <select id="c-dispo" name="disponibilite">
-              <option value="">Sélectionner...</option>
-              <option>Immédiatement</option>
-              <option>Dans les 2 semaines</option>
-              <option>Dans 1 mois</option>
-              <option>À discuter</option>
+              <option value="" data-i18n="form.select">Sélectionner...</option>
+              <option data-i18n="form.avail.now">Immédiatement</option>
+              <option data-i18n="form.avail.2weeks">D'ici 2 semaines</option>
+              <option data-i18n="form.avail.1month">Dans un mois</option>
+              <option data-i18n="form.avail.discuss">À discuter</option>
             </select>
           </div>
 
           <div class="form-group">
-            <label for="c-msg">Parlez-nous de vous</label>
-            <textarea id="c-msg" name="message" placeholder="Décrivez brièvement votre expérience, les types de projets réalisés, vos forces..."></textarea>
+            <label for="c-msg" data-i18n="careers.form.tellUs">Parlez-nous de vous</label>
+            <textarea id="c-msg" name="message" placeholder="Décrivez brièvement votre expérience, les types de projets réalisés, vos forces..." data-i18n-placeholder="careers.form.tellUsPlaceholder"></textarea>
           </div>
 
-          <button type="submit" class="form-submit" id="careerBtn">Envoyer ma candidature</button>
-          <div class="form-msg success" id="careerOk">
+          <button type="submit" class="form-submit" id="careerBtn" data-i18n="careers.form.submit">Envoyer ma candidature</button>
+          <div class="form-msg success" id="careerOk" data-i18n="careers.form.success">
             ✓ Votre candidature a bien été reçue! On vous contactera sous peu.
           </div>
-          <div class="form-msg error" id="careerErr">
+          <div class="form-msg error" id="careerErr" data-i18n-html="careers.form.error">
             Une erreur s'est produite. Veuillez nous écrire directement à
             <strong>peinture.proactif@gmail.com</strong> ou appeler le 418 932-8427.
           </div>
@@ -212,22 +213,22 @@
     <div class="footer-grid">
       <div>
         <div class="footer-logo">Peinture<span> Proactif</span></div>
-        <p class="footer-desc">Peinture résidentielle et commerciale à Québec. Travail soigné, résultats durables.</p>
-        <p class="footer-rbq">Licence RBQ : 5762-2433-01</p>
+        <p class="footer-desc" data-i18n="footer.descShort">Peinture résidentielle et commerciale à Québec. Travail soigné, résultats durables.</p>
+        <p class="footer-rbq" data-i18n="footer.license">Licence RBQ : 5762-2433-01</p>
       </div>
       <div class="footer-col">
-        <h4>Navigation</h4>
+        <h4 data-i18n="footer.navHeading">Navigation</h4>
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="realisations.html">Réalisations</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li><a href="carrieres.html">Carrières</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
+          <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+          <li><a href="carrieres.html" data-i18n="nav.careers">Carrières</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4 data-i18n="footer.contactHeading">Contact</h4>
         <ul>
           <li><a href="tel:4189328427">418 932-8427</a></li>
           <li><a href="mailto:peinture.proactif@gmail.com">peinture.proactif@gmail.com</a></li>
@@ -236,11 +237,12 @@
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">© 2025 Peinture Proactif. Tous droits réservés.</div>
+    <div class="footer-bottom" data-i18n="footer.rights">© 2025 Peinture Proactif. Tous droits réservés.</div>
   </div>
 </footer>
 
 <script src="nav.js"></script>
+<script src="i18n.js"></script>
 <script>
 (function () {
   'use strict';
@@ -294,4 +296,3 @@
 </script>
 </body>
 </html>
-
