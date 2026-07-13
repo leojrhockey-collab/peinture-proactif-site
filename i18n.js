@@ -203,7 +203,7 @@
     'contact.why2': 'We visit to assess your project',
     'contact.why3': 'Clear, detailed quote in writing',
     'contact.why4': 'No surprises on the final bill',
-    'contact.zonesList': "Quebec City · Sainte-Foy · Sillery · Cap-Rouge · Charlesbourg · Beauport · Saint-Augustin-de-Desmaures · L'Ancienne-Lorette · Lac-Saint-Charles · Loretteville · Val-Bélair · and surrounding areas",
+    'contact.zonesList': 'Quebec City and Surrounding Areas',
     'contact.form.title': 'Your Project',
     'contact.form.emailOptional': 'Email',
     'contact.form.city': 'City *',
@@ -236,6 +236,7 @@
     'form.avail.2weeks': 'Within 2 weeks',
     'form.avail.1month': 'Within a month',
     'form.avail.discuss': 'To be discussed',
+    'form.consent': 'By submitting this form, you consent to your information being used solely to respond to your request.',
 
     /* GALLERY / REALISATIONS PAGE */
     'gallery.title': 'Our Work',
@@ -277,9 +278,8 @@
     'services.exterior.li4': 'Thorough preparation and cleaning',
     'services.exterior.li5': 'Products suited to the Quebec climate',
     'services.service03': 'Service 03',
-    'services.commercial.sub': 'Offices, businesses, restaurants, apartment buildings. We work quickly and cleanly, adapting to your schedule to minimize disruption to your operations.',
+    'services.commercial.sub': 'Offices, businesses, restaurants. We work quickly and cleanly, adapting to your schedule to minimize disruption to your operations.',
     'services.commercial.li1': 'Offices, businesses, restaurants',
-    'services.commercial.li2': 'Apartment buildings and condos',
     'services.commercial.li3': 'Work scheduled around your availability',
     'services.commercial.li4': 'Detailed quote before work begins',
     'services.commercial.li5': 'Large surfaces and large-scale projects'
