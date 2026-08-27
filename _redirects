@@ -20,6 +20,3 @@
 /emplois                /carrieres.html         301
 /jobs                   /carrieres.html         301
 /travail                /carrieres.html         301
-
-# Catch-all: any unknown old URL → home
-/*                      /                       301
