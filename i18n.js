@@ -8,18 +8,18 @@
 
   var translations = {
     /* meta */
-    'meta.home.title': 'Peinture Proactif | Painter in Quebec City – Residential and Commercial',
-    'meta.home.description': "Peinture Proactif – Residential and commercial painter in Quebec City. Careful work, flawless results. Free quote: 418-932-8427.",
-    'meta.about.title': 'About Us | Peinture Proactif – Quebec City',
-    'meta.about.description': "Meet the Peinture Proactif team – over 10 years of experience in residential and commercial painting in Quebec City.",
-    'meta.careers.title': 'Careers | Peinture Proactif – Quebec City',
-    'meta.careers.description': "Join the Peinture Proactif team. We're looking for professional painters in Quebec City. Apply now.",
-    'meta.contact.title': 'Contact | Peinture Proactif – Free Quote in Quebec City',
-    'meta.contact.description': "Request your free quote from Peinture Proactif. Residential and commercial painting in Quebec City. We respond as quickly as possible.",
-    'meta.gallery.title': 'Our Work | Peinture Proactif – Quebec City',
-    'meta.gallery.description': 'See the work completed by Peinture Proactif – residential and commercial projects across the Quebec City region.',
-    'meta.services.title': 'Services | Peinture Proactif – Quebec City',
-    'meta.services.description': "Interior, exterior and commercial painting in Quebec City. Discover all of Peinture Proactif's services.",
+    'meta.home.title': 'Residential & Commercial Painter in Quebec City | Peinture Proactif',
+    'meta.home.description': "Peinture Proactif – residential and commercial painter in Quebec City. Free quote for interior, exterior and commercial painting. Call 418-932-8427.",
+    'meta.about.title': 'Painter in Quebec City for Over 10 Years | Peinture Proactif',
+    'meta.about.description': "Peinture Proactif: professional painter in Quebec City for over 10 years. RBQ-licensed, careful work, reliable and experienced team.",
+    'meta.careers.title': 'Painting Jobs in Quebec City – Join Our Team | Peinture Proactif',
+    'meta.careers.description': "Looking for professional painters in Quebec City. Join Peinture Proactif – local company, team culture, steady work.",
+    'meta.contact.title': 'Free Quote – Painter in Quebec City | Peinture Proactif',
+    'meta.contact.description': "Request your free painting quote in Quebec City. Residential or commercial, we respond quickly with no obligation. 418-932-8427.",
+    'meta.gallery.title': 'Our Work – Residential & Commercial Painting in Quebec City | Peinture Proactif',
+    'meta.gallery.description': 'See our residential and commercial painting projects in Quebec City – photos of interior and exterior work by Peinture Proactif.',
+    'meta.services.title': 'Painting Services in Quebec City – Interior, Exterior & Commercial | Peinture Proactif',
+    'meta.services.description': "Interior residential, exterior and commercial painting in Quebec City. Quality work, lasting results. Free quote.",
 
     /* nav / footer (shared) */
     'nav.home': 'Home',

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page non trouvée | Peinture Proactif</title>
+  <link rel="canonical" href="https://peintureproactif.com/">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var redirects = {
+        '/services':          '/services.html',
+        '/nos-services':      '/services.html',
+        '/service':           '/services.html',
+        '/contact':           '/contact.html',
+        '/contactez-nous':    '/contact.html',
+        '/soumission':        '/contact.html',
+        '/soumission-gratuite': '/contact.html',
+        '/devis':             '/contact.html',
+        '/a-propos':          '/a-propos.html',
+        '/about':             '/a-propos.html',
+        '/qui-sommes-nous':   '/a-propos.html',
+        '/notre-equipe':      '/a-propos.html',
+        '/realisations':      '/realisations.html',
+        '/galerie':           '/realisations.html',
+        '/portfolio':         '/realisations.html',
+        '/photos':            '/realisations.html',
+        '/projets':           '/realisations.html',
+        '/carrieres':         '/carrieres.html',
+        '/emplois':           '/carrieres.html',
+        '/jobs':              '/carrieres.html',
+        '/travail':           '/carrieres.html'
+      };
+
+      var path = window.location.pathname.toLowerCase().replace(/\/+$/, '');
+      var dest = redirects[path];
+      if (dest) {
+        window.location.replace('https://peintureproactif.com' + dest);
+      }
+    }());
+  </script>
+</head>
+<body>
+<nav id="navbar" class="inner-page">
+  <div class="nav-container">
+    <a href="index.html" class="logo">Peinture<span> Proactif</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-hero" style="min-height:60vh;display:flex;align-items:center;">
+  <div class="container" style="text-align:center;">
+    <h1 style="font-size:5rem;font-weight:900;color:var(--orange);margin-bottom:0;">404</h1>
+    <h2 style="margin-bottom:16px;">Page non trouvée</h2>
+    <p style="color:var(--text-mid);margin-bottom:32px;">Cette page n'existe pas ou a été déplacée.</p>
+    <a href="/" class="btn btn-orange">Retour à l'accueil</a>
+  </div>
+</div>
+
+<script src="nav.js"></script>
+</body>
+</html>
