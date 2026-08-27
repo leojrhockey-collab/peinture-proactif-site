@@ -370,8 +370,15 @@ section { padding: 96px 0; }
 }
 
 /* ── Nav logo image ── */
+.nav-logo-wrap {
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
 .nav-logo-img {
-  height: 42px;
+  height: 38px;
   width: auto;
   display: block;
 }
