@@ -1,0 +1,25 @@
+# 301 redirects from old WordPress URLs to new pages
+/services               /services.html          301
+/nos-services           /services.html          301
+/service                /services.html          301
+/contact                /contact.html           301
+/contactez-nous         /contact.html           301
+/soumission             /contact.html           301
+/soumission-gratuite    /contact.html           301
+/devis                  /contact.html           301
+/a-propos               /a-propos.html          301
+/about                  /a-propos.html          301
+/qui-sommes-nous        /a-propos.html          301
+/notre-equipe           /a-propos.html          301
+/realisations           /realisations.html      301
+/galerie                /realisations.html      301
+/portfolio              /realisations.html      301
+/photos                 /realisations.html      301
+/projets                /realisations.html      301
+/carrieres              /carrieres.html         301
+/emplois                /carrieres.html         301
+/jobs                   /carrieres.html         301
+/travail                /carrieres.html         301
+
+# Catch-all: any unknown old URL → home
+/*                      /                       301

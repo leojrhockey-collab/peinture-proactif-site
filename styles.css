@@ -335,7 +335,7 @@ section { padding: 96px 0; }
 #navbar.scrolled .hamburger:hover { background: var(--bg-alt); }
 
 /* ============================================================
-   HERO — Full viewport with real photo background
+   HERO — Brand-colour background (no photo required)
 ============================================================ */
 .hero-full {
   position: relative;
@@ -345,17 +345,20 @@ section { padding: 96px 0; }
   padding-bottom: 80px;
   overflow: hidden;
 
-  /* Photo hero — user provides img/hero-bg.jpg (the rooftop photo) */
   background:
-    linear-gradient(
-      to bottom,
-      rgba(8,16,36,0.30) 0%,
-      rgba(8,16,36,0.45) 50%,
-      rgba(8,16,36,0.80) 85%,
-      rgba(8,16,36,0.92) 100%
-    ),
-    url('img/hero-bg.jpg') center 35% / cover no-repeat;
+    radial-gradient(ellipse 65% 55% at 12% 60%, rgba(224,123,26,0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 45% 55% at 88% 20%, rgba(224,123,26,0.09) 0%, transparent 70%),
+    linear-gradient(165deg, #0f1e3d 0%, #0a1428 55%, #060d1c 100%);
   background-color: var(--navy-dark);
+}
+
+/* ── Logo mark displayed in the hero ── */
+.hero-brand-mark {
+  margin-bottom: 28px;
+}
+.hero-brand-mark svg {
+  display: block;
+  filter: drop-shadow(0 6px 24px rgba(224,123,26,0.45));
 }
 
 .hero-content {
