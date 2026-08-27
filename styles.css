@@ -335,7 +335,7 @@ section { padding: 96px 0; }
 #navbar.scrolled .hamburger:hover { background: var(--bg-alt); }
 
 /* ============================================================
-   HERO — Full viewport with real photo background
+   HERO — Dark brand background with logo mark
 ============================================================ */
 .hero-full {
   position: relative;
@@ -345,17 +345,50 @@ section { padding: 96px 0; }
   padding-bottom: 80px;
   overflow: hidden;
 
-  /* Photo hero — user provides img/hero-bg.jpg (the rooftop photo) */
   background:
-    linear-gradient(
-      to bottom,
-      rgba(8,16,36,0.30) 0%,
-      rgba(8,16,36,0.45) 50%,
-      rgba(8,16,36,0.80) 85%,
-      rgba(8,16,36,0.92) 100%
-    ),
-    url('img/hero-bg.jpg') center 35% / cover no-repeat;
+    radial-gradient(ellipse 70% 60% at 10% 65%, rgba(224,123,26,0.13) 0%, transparent 65%),
+    linear-gradient(165deg, #0f1e3d 0%, #0a1428 55%, #060d1c 100%);
   background-color: var(--navy-dark);
+}
+
+/* ── Hero logo (recreated from brand identity) ── */
+.hero-logo {
+  margin-bottom: 32px;
+}
+.hero-logo-peinture {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 7px;
+  color: rgba(255,255,255,0.70);
+  margin: 0 0 2px;
+}
+.hero-logo-proactif {
+  display: flex;
+  align-items: center;
+  font-family: 'Arial Black', 'Arial', sans-serif;
+  font-size: clamp(2.6rem, 6.5vw, 3.8rem);
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.hero-logo-pr   { color: #fff; }
+.hero-logo-actif { color: var(--orange); }
+.hero-logo-o {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1px;
+}
+.hero-logo-o svg {
+  height: 0.82em;
+  width: auto;
+  display: block;
+}
+.hero-logo-tagline {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.50);
+  letter-spacing: 0.3px;
+  margin: 0;
 }
 
 .hero-content {
