@@ -351,7 +351,7 @@ section { padding: 96px 0; }
   background-color: var(--navy-dark);
 }
 
-/* ── Hero logo on white card (matches brand colours exactly) ── */
+/* ── Hero logo image on white card ── */
 .hero-logo {
   margin-bottom: 32px;
   display: inline-block;
@@ -359,48 +359,21 @@ section { padding: 96px 0; }
 .hero-logo-card {
   background: #fff;
   border-radius: 10px;
-  padding: 14px 22px 12px;
+  padding: 12px 20px;
   display: inline-block;
   box-shadow: 0 6px 28px rgba(0,0,0,0.35);
 }
-.hero-logo-peinture {
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 5px;
-  color: #888;
-  margin: 0 0 2px;
-}
-.hero-logo-proactif {
-  display: flex;
-  align-items: center;
-  font-family: 'Arial Black', 'Arial', sans-serif;
-  font-size: 2.1rem;
-  font-weight: 900;
-  line-height: 1;
-  margin-bottom: 5px;
-  gap: 0;
-}
-.hero-logo-pr   { color: #2a2a2a; }
-.hero-logo-actif { color: #E07B1A; }
-.hero-logo-o {
-  display: inline-flex;
-  align-items: center;
-  width: 34px;
-  height: 34px;
-  flex-shrink: 0;
-}
-.hero-logo-o svg {
-  width: 34px;
-  height: 34px;
+.hero-logo-img {
+  height: 90px;
+  width: auto;
   display: block;
-  flex-shrink: 0;
 }
-.hero-logo-tagline {
-  font-size: 0.64rem;
-  color: #777;
-  letter-spacing: 0.2px;
-  margin: 0;
-  font-style: italic;
+
+/* ── Nav logo image ── */
+.nav-logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
 }
 
 .hero-content {
