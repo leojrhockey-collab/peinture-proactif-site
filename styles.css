@@ -351,48 +351,56 @@ section { padding: 96px 0; }
   background-color: var(--navy-dark);
 }
 
-/* ── Hero logo mark ── */
+/* ── Hero logo on white card (matches brand colours exactly) ── */
 .hero-logo {
   margin-bottom: 32px;
   display: inline-block;
 }
+.hero-logo-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px 22px 12px;
+  display: inline-block;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.35);
+}
 .hero-logo-peinture {
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   font-weight: 600;
-  letter-spacing: 6px;
-  color: rgba(255,255,255,0.65);
-  margin: 0 0 3px;
+  letter-spacing: 5px;
+  color: #888;
+  margin: 0 0 2px;
 }
 .hero-logo-proactif {
   display: flex;
   align-items: center;
   font-family: 'Arial Black', 'Arial', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-weight: 900;
   line-height: 1;
   margin-bottom: 5px;
   gap: 0;
 }
-.hero-logo-pr   { color: #fff; }
-.hero-logo-actif { color: var(--orange); }
+.hero-logo-pr   { color: #2a2a2a; }
+.hero-logo-actif { color: #E07B1A; }
 .hero-logo-o {
   display: inline-flex;
   align-items: center;
-  width: 38px;
-  height: 38px;
+  width: 34px;
+  height: 34px;
   flex-shrink: 0;
 }
 .hero-logo-o svg {
-  width: 38px;
-  height: 38px;
+  width: 34px;
+  height: 34px;
   display: block;
   flex-shrink: 0;
 }
 .hero-logo-tagline {
-  font-size: 0.72rem;
-  color: rgba(255,255,255,0.48);
+  font-size: 0.64rem;
+  color: #777;
   letter-spacing: 0.2px;
   margin: 0;
+  font-style: italic;
 }
 
 .hero-content {
