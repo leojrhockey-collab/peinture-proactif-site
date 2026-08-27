@@ -351,43 +351,47 @@ section { padding: 96px 0; }
   background-color: var(--navy-dark);
 }
 
-/* ── Hero logo (recreated from brand identity) ── */
+/* ── Hero logo mark ── */
 .hero-logo {
   margin-bottom: 32px;
+  display: inline-block;
 }
 .hero-logo-peinture {
-  font-size: 0.82rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 7px;
-  color: rgba(255,255,255,0.70);
-  margin: 0 0 2px;
+  letter-spacing: 6px;
+  color: rgba(255,255,255,0.65);
+  margin: 0 0 3px;
 }
 .hero-logo-proactif {
   display: flex;
   align-items: center;
   font-family: 'Arial Black', 'Arial', sans-serif;
-  font-size: clamp(2.6rem, 6.5vw, 3.8rem);
+  font-size: 2.5rem;
   font-weight: 900;
   line-height: 1;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
+  gap: 0;
 }
 .hero-logo-pr   { color: #fff; }
 .hero-logo-actif { color: var(--orange); }
 .hero-logo-o {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  margin: 0 1px;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
 }
 .hero-logo-o svg {
-  height: 0.82em;
-  width: auto;
+  width: 38px;
+  height: 38px;
   display: block;
+  flex-shrink: 0;
 }
 .hero-logo-tagline {
-  font-size: 0.78rem;
-  color: rgba(255,255,255,0.50);
-  letter-spacing: 0.3px;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.48);
+  letter-spacing: 0.2px;
   margin: 0;
 }
 
