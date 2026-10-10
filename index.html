@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-CA">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-i18n="meta.home.title">Peintre résidentiel et commercial à Québec | Peinture Proactif</title>
   <meta name="description" data-i18n="meta.home.description" content="Peinture Proactif – peintre résidentiel et commercial à Québec. Soumission gratuite pour peinture intérieure, extérieure et commerciale. 418 932-8427.">
   <link rel="canonical" href="https://peintureproactif.com/">
+  <link rel="alternate" hreflang="fr-CA" href="https://peintureproactif.com/">
+  <link rel="alternate" hreflang="en-CA" href="https://peintureproactif.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://peintureproactif.com/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://peintureproactif.com/">
   <meta property="og:title" content="Peintre résidentiel et commercial à Québec | Peinture Proactif">
@@ -16,6 +19,7 @@
   {
     "@context": "https://schema.org",
     "@type": "HousePainter",
+    "@id": "https://peintureproactif.com/#business",
     "name": "Peinture Proactif",
     "image": "https://peintureproactif.com/img/logo.png",
     "url": "https://peintureproactif.com/",
@@ -47,6 +51,10 @@
     "priceRange": "$$",
     "currenciesAccepted": "CAD",
     "description": "Peinture Proactif offre des services de peinture résidentielle et commerciale à Québec. Peinture intérieure, extérieure, commerciale. Soumission gratuite.",
+    "sameAs": [
+      "https://www.facebook.com/p/Peinture-Proactif-61556565185844/",
+      "https://www.pagesjaunes.ca/bus/Quebec/Quebec/Peinture-Proactif-Inc/102717442.html"
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Services de peinture",
@@ -67,7 +75,7 @@
 ══════════════════════════════════════════ -->
 <nav id="navbar">
   <div class="nav-container">
-    <a href="index.html" class="logo"><span class="nav-logo-wrap"><img src="img/logo.png" alt="Peinture Proactif" class="nav-logo-img"></span></a>
+    <a href="./" class="logo"><span class="nav-logo-wrap"><img src="img/logo.png" alt="Peinture Proactif" class="nav-logo-img"></span></a>
 
     <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
@@ -78,13 +86,14 @@
     </button>
 
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html" class="active" data-i18n="nav.home">Accueil</a></li>
-      <li><a href="services.html" data-i18n="nav.services">Services</a></li>
-      <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
-      <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
-      <li><a href="carrieres.html" data-i18n="nav.careers">Carrières</a></li>
-      <li class="nav-cta"><a href="contact.html" data-i18n="nav.ctaFree">Soumission gratuite</a></li>
-      <li class="nav-lang"><button type="button" id="langToggle" class="lang-toggle">EN</button></li>
+      <li><a href="./" class="active">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="realisations.html">Réalisations</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="carrieres.html">Carrières</a></li>
+      <li class="nav-cta"><a href="contact.html">Soumission gratuite</a></li>
+      <li class="nav-lang"><a href="/en/" class="lang-link">EN</a></li>
     </ul>
   </div>
 </nav>
@@ -198,25 +207,35 @@
       <p data-i18n="home.services.sub">De la préparation des surfaces à la touche finale, on prend en charge chaque étape avec soin.</p>
     </div>
 
-    <div class="services-grid services-grid-2">
+    <div class="services-grid">
 
       <div class="service-card fade-up">
         <div class="service-card-photo">
-          <img src="img/2023.jpg" alt="Peinture extérieure d'une maison résidentielle" data-i18n-alt="alt.exteriorHouse" loading="lazy">
+          <img src="img/photo-travaux.jpg" alt="Peinture intérieure résidentielle" loading="lazy">
         </div>
         <div class="service-card-body">
-          <h3 data-i18n="services.interiorExterior">Peinture intérieure et extérieure</h3>
-          <a href="services/peinture-interieure.html" class="btn-link" data-i18n="common.learnMore">En savoir plus →</a>
+          <h3>Peinture intérieure</h3>
+          <a href="services/peinture-interieure.html" class="btn-link">En savoir plus →</a>
         </div>
       </div>
 
       <div class="service-card fade-up">
         <div class="service-card-photo">
-          <img src="img/1780.jpg" alt="Peinture commerciale — local en rénovation" data-i18n-alt="alt.commercialRenovation" loading="lazy">
+          <img src="img/2023.jpg" alt="Peinture extérieure résidentielle" loading="lazy">
         </div>
         <div class="service-card-body">
-          <h3 data-i18n="services.commercialIndustrial">Commercial &amp; Industriel</h3>
-          <a href="services/peinture-commerciale.html" class="btn-link" data-i18n="common.learnMore">En savoir plus →</a>
+          <h3>Peinture extérieure</h3>
+          <a href="services/peinture-exterieure.html" class="btn-link">En savoir plus →</a>
+        </div>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-card-photo">
+          <img src="img/1780.jpg" alt="Peinture commerciale" loading="lazy">
+        </div>
+        <div class="service-card-body">
+          <h3>Peinture commerciale</h3>
+          <a href="services/peinture-commerciale.html" class="btn-link">En savoir plus →</a>
         </div>
       </div>
 
@@ -523,7 +542,7 @@
       <div class="footer-col">
         <h4 data-i18n="footer.navHeading">Navigation</h4>
         <ul>
-          <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="./" data-i18n="nav.home">Accueil</a></li>
           <li><a href="services.html" data-i18n="nav.services">Services</a></li>
           <li style="padding-left:12px;"><a href="services/peinture-interieure.html" style="font-size:0.86rem;opacity:0.82;" data-i18n="footer.serviceInt">Peinture intérieure</a></li>
           <li style="padding-left:12px;"><a href="services/peinture-exterieure.html" style="font-size:0.86rem;opacity:0.82;" data-i18n="footer.serviceExt">Peinture extérieure</a></li>

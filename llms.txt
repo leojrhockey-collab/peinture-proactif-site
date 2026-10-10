@@ -27,7 +27,7 @@ Québec et les environs
 ## Site web
 https://peintureproactif.com/
 
-## Pages principales
+## Pages principales (français)
 - Accueil : https://peintureproactif.com/
 - Services : https://peintureproactif.com/services.html
 - Peinture intérieure : https://peintureproactif.com/services/peinture-interieure.html
@@ -38,3 +38,46 @@ https://peintureproactif.com/
 - À propos : https://peintureproactif.com/a-propos.html
 - Contact / Soumission gratuite : https://peintureproactif.com/contact.html
 - Carrières : https://peintureproactif.com/carrieres.html
+
+---
+
+# Peinture Proactif (English)
+
+## Company
+Peinture Proactif is a residential and commercial painting company based in Québec City, Canada, with over 10 years of experience. RBQ-licensed (5762-2433-01) and fully insured.
+
+## Services
+- Interior painting: walls, ceilings, trim, doors, staircase railings
+- Exterior painting: siding, soffits, garage doors, patios, fences, window frames
+- Commercial painting: offices, restaurants, retail — work adapted to the client's schedule
+
+## Service area
+Québec City and surrounding areas
+
+## Contact
+- Phone: 418 932-8427
+- Email: peinture.proactif@gmail.com
+- Address: 7052 Avenue Grignon, Québec, QC G1H 6S1
+
+## Hours
+7 days a week, 8 AM – 6 PM (exceptions on public holidays)
+
+## Licences and credentials
+- RBQ Licence: 5762-2433-01 — Painting contractor
+- Liability insurance
+- Eco-friendly, low-VOC paints available
+
+## Website (English)
+https://peintureproactif.com/en/
+
+## Main pages (English)
+- Home: https://peintureproactif.com/en/
+- Services: https://peintureproactif.com/en/services.html
+- Interior painting: https://peintureproactif.com/en/services/interior-painting.html
+- Exterior painting: https://peintureproactif.com/en/services/exterior-painting.html
+- Commercial painting: https://peintureproactif.com/en/services/commercial-painting.html
+- FAQ: https://peintureproactif.com/en/faq.html
+- Our Work: https://peintureproactif.com/en/our-work.html
+- About: https://peintureproactif.com/en/about.html
+- Contact / Free quote: https://peintureproactif.com/en/contact.html
+- Careers: https://peintureproactif.com/en/careers.html

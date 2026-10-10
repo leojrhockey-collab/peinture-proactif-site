@@ -24,3 +24,14 @@
 /peinture-exterieure    /services/peinture-exterieure.html  301
 /peinture-commerciale   /services/peinture-commerciale.html 301
 /faq                    /faq.html               301
+
+# EN clean URL redirects
+/en/about               /en/about.html          301
+/en/our-work            /en/our-work.html       301
+/en/careers             /en/careers.html        301
+/en/faq                 /en/faq.html            301
+/en/services            /en/services.html       301
+/en/contact             /en/contact.html        301
+/en/services/interior-painting      /en/services/interior-painting.html     301
+/en/services/exterior-painting      /en/services/exterior-painting.html     301
+/en/services/commercial-painting    /en/services/commercial-painting.html   301
