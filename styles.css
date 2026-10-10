@@ -1356,6 +1356,57 @@ footer {
 }
 
 /* ============================================================
+   SERVICES DROPDOWN
+============================================================ */
+.nav-has-dropdown { position: relative; }
+
+.nav-chevron {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2px;
+  flex-shrink: 0;
+  transition: transform var(--ease);
+}
+.nav-has-dropdown:hover > a .nav-chevron,
+.nav-has-dropdown:focus-within > a .nav-chevron { transform: rotate(180deg); }
+
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 210px;
+  list-style: none;
+  padding: 6px;
+  margin: 0;
+  background: var(--white);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border);
+  z-index: 200;
+}
+.nav-has-dropdown:hover .nav-dropdown,
+.nav-has-dropdown:focus-within .nav-dropdown { display: block; }
+
+.nav-dropdown li a {
+  display: block;
+  padding: 9px 14px;
+  border-radius: var(--r-sm);
+  font-size: 0.87rem;
+  font-weight: 500;
+  color: var(--text-700) !important;
+  text-decoration: none;
+  transition: background var(--ease), color var(--ease);
+  white-space: nowrap;
+}
+.nav-dropdown li a:hover,
+.nav-dropdown li a.active {
+  background: var(--bg-alt) !important;
+  color: var(--navy) !important;
+}
+
+/* ============================================================
    MOBILE NAV
 ============================================================ */
 @media (max-width: 860px) {
@@ -1404,6 +1455,22 @@ footer {
   .photo-feature-inner { grid-template-columns: 1fr; }
   .photo-feature-img { min-height: 340px; }
   .photo-feature-content { padding: 56px 32px; }
+  /* Dropdown: always-visible indented sub-list on mobile */
+  .nav-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    transform: none;
+    min-width: auto;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-dropdown li { width: 100%; }
+  .nav-dropdown li a { padding-left: 44px !important; }
+  .nav-chevron { display: none; }
 }
 
 /* ============================================================
@@ -1607,3 +1674,20 @@ footer {
   transition: opacity 0.7s ease;
 }
 .fade-in.visible { opacity: 1; }
+
+/* ============================================================
+   FAQ ACCORDION
+============================================================ */
+.faq-list { display:flex; flex-direction:column; gap:0; border-top:1px solid var(--border); }
+.faq-item { border-bottom:1px solid var(--border); }
+.faq-q {
+  width:100%; background:none; border:none; cursor:pointer; padding:22px 0;
+  display:flex; justify-content:space-between; align-items:center; gap:16px;
+  font-size:1rem; font-weight:600; color:var(--navy); text-align:left;
+}
+.faq-q:hover { color:var(--orange); }
+.faq-chevron { flex-shrink:0; transition:transform 0.22s ease; color:var(--text-300); }
+.faq-q[aria-expanded="true"] .faq-chevron { transform:rotate(180deg); color:var(--orange); }
+.faq-a { padding:0 0 20px 0; }
+.faq-a p { font-size:0.95rem; color:var(--text-500); line-height:1.75; margin:0; }
+.faq-a a { color:var(--orange); text-decoration:underline; }

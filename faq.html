@@ -118,7 +118,14 @@
     </button>
     <ul class="nav-links" id="navLinks">
       <li><a href="./">Accueil</a></li>
-      <li><a href="services.html">Services</a></li>
+      <li class="nav-has-dropdown">
+        <a href="services.html">Services <svg class="nav-chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6,9 12,15 18,9"/></svg></a>
+        <ul class="nav-dropdown">
+          <li><a href="services/peinture-interieure.html">Peinture intérieure</a></li>
+          <li><a href="services/peinture-exterieure.html">Peinture extérieure</a></li>
+          <li><a href="services/peinture-commerciale.html">Peinture commerciale</a></li>
+        </ul>
+      </li>
       <li><a href="realisations.html">Réalisations</a></li>
       <li><a href="faq.html" class="active">FAQ</a></li>
       <li><a href="a-propos.html">À propos</a></li>
@@ -304,23 +311,7 @@
 </footer>
 
 <script src="nav.js"></script>
-<script src="i18n.js"></script>
 <script src="privacy-notice.js"></script>
-<style>
-  .faq-list { display:flex; flex-direction:column; gap:0; border-top:1px solid var(--border); }
-  .faq-item { border-bottom:1px solid var(--border); }
-  .faq-q {
-    width:100%; background:none; border:none; cursor:pointer; padding:22px 0;
-    display:flex; justify-content:space-between; align-items:center; gap:16px;
-    font-size:1rem; font-weight:600; color:var(--navy); text-align:left;
-  }
-  .faq-q:hover { color:var(--orange); }
-  .faq-chevron { flex-shrink:0; transition:transform 0.22s ease; color:var(--text-light); }
-  .faq-q[aria-expanded="true"] .faq-chevron { transform:rotate(180deg); color:var(--orange); }
-  .faq-a { padding:0 0 20px 0; }
-  .faq-a p { font-size:0.95rem; color:var(--text-mid); line-height:1.75; margin:0; }
-  .faq-a a { color:var(--orange); text-decoration:underline; }
-</style>
 <script>
   document.querySelectorAll('.faq-q').forEach(btn => {
     btn.addEventListener('click', () => {

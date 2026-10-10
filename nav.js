@@ -52,4 +52,16 @@
       el.classList.add('visible');
     });
   }
+
+  /* Dropdown aria-expanded sync */
+  document.querySelectorAll('.nav-has-dropdown').forEach(function (item) {
+    var trigger = item.querySelector(':scope > a');
+    function setOpen(v) { if (trigger) trigger.setAttribute('aria-expanded', v ? 'true' : 'false'); }
+    item.addEventListener('mouseenter', function () { setOpen(true); });
+    item.addEventListener('mouseleave', function () { setOpen(false); });
+    item.addEventListener('focusin', function () { setOpen(true); });
+    item.addEventListener('focusout', function (e) {
+      if (!item.contains(e.relatedTarget)) setOpen(false);
+    });
+  });
 }());
