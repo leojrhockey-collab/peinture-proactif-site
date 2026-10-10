@@ -293,7 +293,10 @@
     /* REVIEWS */
     'reviews.eyebrow': 'Client Reviews',
     'reviews.title': 'What Our Clients Say',
-    'reviews.sub': "Hundreds of projects completed in the Quebec City region — here's what our clients think.",
+    'reviews.r1.text': '"Wow, I highly recommend it!" (translated from French)',
+    'reviews.r2.text': '"Very satisfied with the painting work in our condo building. Thank you." (translated from French)',
+    'reviews.r3.text': '"Excellent painters and a wonderful team. They\'re fast and do beautiful, meticulous work, and more. I want them to continue my house project. ❤️" (translated from French)',
+    'reviews.cta': 'See all our Google reviews',
 
     /* FAQ PAGE */
     'faq.eyebrow': 'FAQ',

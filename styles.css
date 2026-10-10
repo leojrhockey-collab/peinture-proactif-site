@@ -203,6 +203,25 @@ section { padding: 96px 0; }
 }
 .btn-link:hover { gap: 12px; color: var(--orange); }
 
+/* Reviews grid */
+.reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.review-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 28px 24px; }
+.review-stars { color: #f59e0b; font-size: 1.1rem; letter-spacing: 2px; margin-bottom: 14px; }
+.review-text { font-size: 0.93rem; color: var(--text-mid); line-height: 1.75; margin-bottom: 18px; font-style: italic; }
+.review-author strong { font-size: 0.9rem; color: var(--navy); }
+.review-source { font-size: 0.82rem; color: var(--text-light); }
+.reviews-cta { text-align: center; margin-top: 36px; }
+@media (max-width: 768px) { .reviews-grid { grid-template-columns: 1fr; } }
+
+.btn-outline {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 12px 28px; border-radius: var(--radius);
+  border: 2px solid var(--navy); color: var(--navy);
+  font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 0.9rem;
+  text-decoration: none; transition: background var(--ease), color var(--ease);
+}
+.btn-outline:hover { background: var(--navy); color: var(--white); }
+
 /* ============================================================
    NAVIGATION — Transparent over hero → white on scroll
 ============================================================ */
