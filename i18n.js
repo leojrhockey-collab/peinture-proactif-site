@@ -34,7 +34,7 @@
     'footer.license': 'RBQ License: 5762-2433-01',
     'footer.navHeading': 'Navigation',
     'footer.contactHeading': 'Contact',
-    'footer.rights': '© 2025 Peinture Proactif. All rights reserved.',
+    'footer.rights': '© 2026 Peinture Proactif. All rights reserved.',
 
     /* shared / common */
     'cta.freeQuote': 'Request a Free Quote',
@@ -94,7 +94,7 @@
     /* HOME PAGE */
     'home.badge': 'Painting in Quebec City for over 10 years',
     'home.title': 'A <em>flawless</em> finish,<br>the first time.',
-    'home.sub': 'Residential, commercial, condos and apartment buildings — we transform your spaces with care across the Quebec City region.',
+    'home.sub': 'Interior, exterior and commercial painting — we transform your spaces with care across the Quebec City region.',
     'home.services.eyebrow': 'Our Services',
     'home.services.title': 'Everything Your Project Needs',
     'home.services.sub': 'From surface prep to the final touch, we handle every step with care.',
@@ -197,7 +197,7 @@
     'contact.title': 'Request Your Free Quote',
     'contact.heroSub': "Tell us about your project and we'll get back to you as quickly as possible. No obligation.",
     'contact.coords': 'Contact Information',
-    'contact.weekdays': 'Monday to Friday',
+    'contact.weekdays': '7 days a week',
     'contact.replyFast': 'We reply as quickly as possible',
     'contact.why1': 'Detailed estimate, no cost or obligation',
     'contact.why2': 'We visit to assess your project',
@@ -282,7 +282,31 @@
     'services.commercial.li1': 'Offices, businesses, restaurants',
     'services.commercial.li3': 'Work scheduled around your availability',
     'services.commercial.li4': 'Detailed quote before work begins',
-    'services.commercial.li5': 'Large surfaces and large-scale projects'
+    'services.commercial.li5': 'Large surfaces and large-scale projects',
+
+    /* FOOTER — service sub-links */
+    'footer.serviceInt': 'Interior Painting',
+    'footer.serviceExt': 'Exterior Painting',
+    'footer.serviceCom': 'Commercial Painting',
+    'nav.faq': 'FAQ',
+
+    /* REVIEWS */
+    'reviews.eyebrow': 'Client Reviews',
+    'reviews.title': 'What Our Clients Say',
+    'reviews.sub': "Hundreds of projects completed in the Quebec City region — here's what our clients think.",
+
+    /* FAQ PAGE */
+    'faq.eyebrow': 'FAQ',
+    'faq.title': 'Frequently Asked Questions',
+    'faq.heroSub': 'Everything you want to know before reaching out.',
+
+    /* SERVICE SUB-PAGES META */
+    'meta.interior.title': 'Interior Painting in Quebec City – Residential & Commercial | Peinture Proactif',
+    'meta.interior.description': 'Interior painting services in Quebec City. Walls, ceilings, woodwork – careful work, VOC-free paints available. Free quote. 418-932-8427.',
+    'meta.exterior.title': 'Exterior Painting in Quebec City – Residential & Commercial | Peinture Proactif',
+    'meta.exterior.description': "Exterior painting in Quebec City. Products designed for Quebec winters. Siding, patios, garage doors. Free quote. 418-932-8427.",
+    'meta.commercial.title': 'Commercial Painting in Quebec City – Offices, Restaurants, Businesses | Peinture Proactif',
+    'meta.commercial.description': 'Commercial painting in Quebec City. Offices, restaurants, businesses – we work around your schedule. Free quote. 418-932-8427.'
   };
 
   var originals = new Map();

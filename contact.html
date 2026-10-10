@@ -67,7 +67,7 @@
               </div>
               <div class="contact-row-text">
                 <strong>418 932-8427</strong>
-                <small data-i18n="contact.weekdays">Du lundi au vendredi</small>
+                <small data-i18n="contact.weekdays">7 jours sur 7</small>
               </div>
             </div>
           </a>
@@ -203,6 +203,34 @@
   </div>
 </section>
 
+<!-- REVIEWS -->
+<section style="background:var(--bg-light);">
+  <div class="container">
+    <div class="section-header fade-up">
+      <p class="eyebrow" data-i18n="reviews.eyebrow">Avis clients</p>
+      <h2 data-i18n="reviews.title">Ce que disent nos clients</h2>
+      <p data-i18n="reviews.sub">Des centaines de projets réalisés dans la région de Québec — voici ce qu'en pensent nos clients.</p>
+    </div>
+    <div class="reviews-grid fade-up">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Excellent travail de peinture extérieure sur notre maison de Charlesbourg. Équipe professionnelle, ponctuels et le résultat est impeccable. Je recommande sans hésiter."</p>
+        <div class="review-author"><strong>Jean-François B.</strong><span> · Charlesbourg</span></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"On a fait repeindre tout l'intérieur de notre condo à Sainte-Foy. Travail soigné, propre, et terminé dans les délais. La soumission était claire et détaillée."</p>
+        <div class="review-author"><strong>Marie-Claire L.</strong><span> · Sainte-Foy</span></div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Très satisfait du service commercial pour notre bureau. Ils ont travaillé en dehors de nos heures d'ouverture pour ne pas perturber nos activités. Aucun stress."</p>
+        <div class="review-author"><strong>Patrick G.</strong><span> · Québec</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <div class="container">
@@ -217,7 +245,11 @@
         <ul>
           <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
           <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li style="padding-left:12px;"><a href="services/peinture-interieure.html" style="font-size:0.86rem;opacity:0.82;" data-i18n="footer.serviceInt">Peinture intérieure</a></li>
+          <li style="padding-left:12px;"><a href="services/peinture-exterieure.html" style="font-size:0.86rem;opacity:0.82;" data-i18n="footer.serviceExt">Peinture extérieure</a></li>
+          <li style="padding-left:12px;"><a href="services/peinture-commerciale.html" style="font-size:0.86rem;opacity:0.82;" data-i18n="footer.serviceCom">Peinture commerciale</a></li>
           <li><a href="realisations.html" data-i18n="nav.gallery">Réalisations</a></li>
+          <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
           <li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
           <li><a href="carrieres.html" data-i18n="nav.careers">Carrières</a></li>
           <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
@@ -233,7 +265,7 @@
         </ul>
       </div>
     </div>
-    <div class="footer-bottom" data-i18n="footer.rights">© 2025 Peinture Proactif. Tous droits réservés.</div>
+    <div class="footer-bottom" data-i18n="footer.rights">© 2026 Peinture Proactif. Tous droits réservés.</div>
   </div>
 </footer>
 
@@ -291,5 +323,14 @@
   });
 }());
 </script>
+<style>
+  .reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .review-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:28px 24px;}
+  .review-stars{color:#f59e0b;font-size:1.1rem;letter-spacing:2px;margin-bottom:14px;}
+  .review-text{font-size:0.93rem;color:var(--text-mid);line-height:1.75;margin-bottom:18px;font-style:italic;}
+  .review-author strong{font-size:0.9rem;color:var(--navy);}
+  .review-author span{font-size:0.82rem;color:var(--text-light);}
+  @media(max-width:768px){.reviews-grid{grid-template-columns:1fr;}}
+</style>
 </body>
 </html>
