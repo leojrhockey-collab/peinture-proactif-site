@@ -1,25 +1,24 @@
-/* Privacy / cookie notice — Loi 25 / PIPEDA compliance
-   Dismissible bar informing users that only localStorage (language pref)
-   is stored locally and that form data is used solely to respond to requests. */
+/* Privacy notice — Loi 25 / PIPEDA compliance
+   Dismissible bar. Language detected from the page's lang attribute (fr-CA / en-CA). */
 (function () {
   'use strict';
 
   var DISMISSED_KEY = 'pp-privacy-ok';
-  var LANG_KEY      = 'pp-lang';
 
   var copy = {
     fr: {
-      msg: 'Ce site enregistre uniquement votre préférence de langue dans votre navigateur (aucun témoin de traçage). Les informations soumises via formulaire servent exclusivement à répondre à votre demande.',
+      msg: 'Les informations soumises via formulaire servent exclusivement à répondre à votre demande. Ce site n\'utilise aucun témoin de traçage.',
       btn: 'Compris'
     },
     en: {
-      msg: 'This site only stores your language preference in your browser (no tracking cookies). Information submitted via form is used solely to respond to your request.',
+      msg: 'Information submitted via form is used solely to respond to your request. This site uses no tracking cookies.',
       btn: 'Got it'
     }
   };
 
   function getLang() {
-    try { return localStorage.getItem(LANG_KEY) || 'fr'; } catch (e) { return 'fr'; }
+    var lang = document.documentElement.getAttribute('lang') || 'fr';
+    return lang.toLowerCase().startsWith('en') ? 'en' : 'fr';
   }
 
   function isDismissed() {
@@ -35,17 +34,9 @@
     }
   }
 
-  function updateCopy(lang) {
-    var t = copy[lang] || copy.fr;
-    var msg = document.getElementById('pp-privacy-msg');
-    var btn = document.getElementById('pp-privacy-btn');
-    if (msg) msg.textContent = t.msg;
-    if (btn) btn.textContent = t.btn;
-  }
-
   function createBar() {
     var lang = getLang();
-    var t = copy[lang] || copy.fr;
+    var t = copy[lang];
 
     var style = document.createElement('style');
     style.textContent = [
@@ -92,13 +83,6 @@
     bar.appendChild(msg);
     bar.appendChild(btn);
     document.body.appendChild(bar);
-
-    /* Sync text when i18n.js switches the <html lang=""> attribute */
-    var observer = new MutationObserver(function () {
-      var newLang = document.documentElement.getAttribute('lang') || 'fr';
-      updateCopy(newLang);
-    });
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
   }
 
   function init() {
