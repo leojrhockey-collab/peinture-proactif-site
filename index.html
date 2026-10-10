@@ -442,34 +442,6 @@
 <!-- ══════════════════════════════════════════
      REVIEWS
 ══════════════════════════════════════════ -->
-<section style="background: var(--bg-light);">
-  <div class="container">
-    <div class="section-header fade-up">
-      <p class="eyebrow" data-i18n="reviews.eyebrow">Avis clients</p>
-      <h2 data-i18n="reviews.title">Ce que disent nos clients</h2>
-      <p data-i18n="reviews.sub">Des centaines de projets réalisés dans la région de Québec — voici ce qu'en pensent nos clients.</p>
-    </div>
-    <div class="reviews-grid fade-up">
-      <!-- Remplacer par de vrais avis Google une fois disponibles -->
-      <div class="review-card">
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">"Excellent travail de peinture extérieure. L'équipe était ponctuelle, propre et le résultat est impeccable. Je recommande sans hésiter!"</p>
-        <div class="review-author"><strong>Jean-François B.</strong><span> · Charlesbourg</span></div>
-      </div>
-      <div class="review-card">
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">"Peinture intérieure complète — cuisine, salon, chambres. Très satisfaite du résultat et du professionnalisme de l'équipe. Chantier impeccable!"</p>
-        <div class="review-author"><strong>Marie-Claire L.</strong><span> · Sainte-Foy</span></div>
-      </div>
-      <div class="review-card">
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">"On a fait appel à Peinture Proactif pour notre bureau commercial. Travail rapide, soigné, prix honnête et respect des délais. Très satisfait!"</p>
-        <div class="review-author"><strong>Patrick G.</strong><span> · Québec</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ══════════════════════════════════════════
      AREAS BAND
 ══════════════════════════════════════════ -->
@@ -622,14 +594,5 @@ document.querySelectorAll('.gallery-grid .gallery-item').forEach((item, i) => {
 </script>
 <script src="i18n.js"></script>
 <script src="privacy-notice.js"></script>
-<style>
-.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
-.review-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:28px 24px;}
-.review-stars{color:#f59e0b;font-size:1.1rem;letter-spacing:2px;margin-bottom:14px;}
-.review-text{font-size:0.93rem;color:var(--text-mid);line-height:1.75;margin-bottom:18px;font-style:italic;}
-.review-author strong{font-size:0.9rem;color:var(--navy);}
-.review-author span{font-size:0.82rem;color:var(--text-light);}
-@media(max-width:768px){.reviews-grid{grid-template-columns:1fr;}}
-</style>
 </body>
 </html>
