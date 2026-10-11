@@ -1405,6 +1405,14 @@ footer {
   background: var(--bg-alt) !important;
   color: var(--navy) !important;
 }
+.nav-dropdown::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  right: 0;
+  height: 12px;
+}
 
 /* ============================================================
    MOBILE NAV
@@ -1471,6 +1479,7 @@ footer {
   .nav-dropdown li { width: 100%; }
   .nav-dropdown li a { padding-left: 44px !important; }
   .nav-chevron { display: none; }
+  .nav-dropdown::before { display: none; }
 }
 
 /* ============================================================
