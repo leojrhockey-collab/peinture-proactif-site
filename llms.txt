@@ -38,6 +38,7 @@ https://peintureproactif.com/
 - À propos : https://peintureproactif.com/a-propos.html
 - Contact / Soumission gratuite : https://peintureproactif.com/contact.html
 - Carrières : https://peintureproactif.com/carrieres.html
+- Peintre à Charlesbourg : https://peintureproactif.com/peintre-charlesbourg.html
 
 ---
 
@@ -81,3 +82,4 @@ https://peintureproactif.com/en/
 - About: https://peintureproactif.com/en/about.html
 - Contact / Free quote: https://peintureproactif.com/en/contact.html
 - Careers: https://peintureproactif.com/en/careers.html
+- Painter in Charlesbourg: https://peintureproactif.com/en/painter-charlesbourg.html

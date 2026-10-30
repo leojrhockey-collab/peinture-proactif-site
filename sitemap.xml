@@ -94,6 +94,16 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://peintureproactif.com/carrieres.html"/>
   </url>
 
+  <url>
+    <loc>https://peintureproactif.com/peintre-charlesbourg.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://peintureproactif.com/peintre-charlesbourg.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://peintureproactif.com/en/painter-charlesbourg.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://peintureproactif.com/peintre-charlesbourg.html"/>
+  </url>
+
   <!-- ENGLISH PAGES (en-CA) -->
   <url>
     <loc>https://peintureproactif.com/en/</loc>
@@ -184,6 +194,15 @@
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://peintureproactif.com/en/careers.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://peintureproactif.com/carrieres.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://peintureproactif.com/carrieres.html"/>
+  </url>
+  <url>
+    <loc>https://peintureproactif.com/en/painter-charlesbourg.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://peintureproactif.com/en/painter-charlesbourg.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://peintureproactif.com/peintre-charlesbourg.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://peintureproactif.com/peintre-charlesbourg.html"/>
   </url>
 
 </urlset>
